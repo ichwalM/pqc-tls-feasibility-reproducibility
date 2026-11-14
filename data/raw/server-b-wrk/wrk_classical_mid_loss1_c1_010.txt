@@ -1,0 +1,15 @@
+/usr/local/bin/wrk -t 1 -c 1 -d 30s --latency https://192.0.2.10:443/
+
+Running 30s test @ https://192.0.2.10:443/
+  1 threads and 1 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    16.06ms   44.58ms 209.90ms   89.50%
+    Req/Sec   159.30    146.06   404.00     62.77%
+  Latency Distribution
+     50%  371.00us
+     75%  419.00us
+     90%   70.58ms
+     99%  202.31ms
+  2028 requests in 30.05s, 360.45KB read
+Requests/sec:     67.49
+Transfer/sec:     11.99KB

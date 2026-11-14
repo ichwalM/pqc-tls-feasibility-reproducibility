@@ -1,0 +1,125 @@
+=== CAPTURE TIME ===
+2026-09-16T14:39:05+08:00
+=== PROXMOX VERSION ===
+proxmox-ve: not correctly installed (running kernel: 6.17.13-2-pve)
+pve-manager: not correctly installed (running version: 9.1.7/16b139a017452f16)
+proxmox-kernel-6.14.11-4-pve-signed: 6.14.11-4
+proxmox-kernel-6.14.8-2-pve-signed: 6.14.8-2
+ceph-fuse: not correctly installed
+corosync: not correctly installed
+criu: 4.1.1-1
+frr-pythontools: not correctly installed
+ifupdown2: 3.3.0-1+pmx12
+intel-microcode: 3.20251111.1~deb13u1
+ksm-control-daemon: 1.5-1
+libjs-extjs: 7.0.0-5
+libproxmox-acme-perl: 1.7.0
+libproxmox-backup-qemu0: not correctly installed
+libproxmox-rs-perl: 0.4.1
+libpve-access-control: not correctly installed
+libpve-apiclient-perl: 3.4.2
+libpve-cluster-api-perl: not correctly installed
+libpve-cluster-perl: not correctly installed
+libpve-common-perl: 9.1.9
+libpve-guest-common-perl: 6.0.2
+libpve-http-server-perl: 6.0.5
+libpve-network-perl: not correctly installed
+libpve-rs-perl: 0.11.4
+libpve-storage-perl: not correctly installed
+libspice-server1: 0.15.2-1+b1
+lvm2: 2.03.31-2+pmx1
+lxc-pve: 6.0.5-4
+lxcfs: 6.0.4-pve1
+novnc-pve: 1.6.0-3
+proxmox-backup-client: 4.1.5-1
+proxmox-backup-file-restore: 4.1.5-1
+proxmox-backup-restore-image: 1.0.0
+proxmox-firewall: not correctly installed
+proxmox-kernel-helper: not correctly installed
+proxmox-mail-forward: 1.0.2
+proxmox-mini-journalreader: 1.6
+proxmox-offline-mirror-helper: 0.7.3
+proxmox-widget-toolkit: 5.1.8
+pve-cluster: not correctly installed
+pve-container: not correctly installed
+pve-docs: 9.1.2
+pve-edk2-firmware: not correctly installed
+pve-esxi-import-tools: 1.0.1
+pve-firewall: not correctly installed
+pve-firmware: 3.18-2
+pve-ha-manager: not correctly installed
+pve-i18n: 3.6.6
+pve-qemu-kvm: not correctly installed
+pve-xtermjs: not correctly installed
+qemu-server: not correctly installed
+smartmontools: 7.4-pve1
+spiceterm: 3.4.1
+swtpm: not correctly installed
+vncterm: 1.9.1
+zfsutils-linux: 2.3.4-pve1
+=== VM STATUS ===
+status: running
+=== VM CONFIGURATION ===
+boot: order=scsi0;ide2;net0
+cores: 4
+cpu: x86-64-v2-AES
+ide2: local:iso/ubuntu-24.04.3-live-server-amd64.iso,media=cdrom,size=3226020K
+memory: 8192
+meta: creation-qemu=10.1.2,ctime=1785169983
+name: Benchmark
+net0: virtio=REDACTED_MAC,bridge=vmbr0,firewall=1
+numa: 0
+ostype: l26
+scsi0: local-lvm:vm-600-disk-0,iothread=1,size=64G
+scsihw: virtio-scsi-single
+smbios1: uuid=REDACTED_UUID
+sockets: 1
+vmgenid: REDACTED_UUID
+=== AVAILABLE SNAPSHOTS ===
+`-> current                                             You are here!
+=== PROXMOX HOST CPU ===
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+CPU family:                              6
+Model:                                   158
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                9
+CPU(s) scaling MHz:                      96%
+CPU max MHz:                             3500.0000
+CPU min MHz:                             800.0000
+BogoMIPS:                                6000.00
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities
+Virtualization:                          VT-x
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               128 KiB (4 instances)
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                6 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Vulnerable
+Vulnerability Ghostwrite:                Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             KVM: Mitigation: Split huge pages
+Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Old microcode:             Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Mitigation; IBRS
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; IBRS; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Mitigation; Microcode
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace

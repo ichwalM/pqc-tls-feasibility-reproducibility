@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived release and the associated paper."
+type: software
+title: "Classical versus Hybrid Post-Quantum TLS 1.3: Reproducibility Package"
+version: 1.0.0
+date-released: 2026-11-14
+abstract: >-
+  Data, archived TLS and Nginx configurations, hardware records, measurement
+  logs, and analysis utilities supporting an experimental comparison of
+  classical X25519 and hybrid X25519MLKEM768 in TLS 1.3 across three x86
+  servers, multiple concurrency levels, and controlled network conditions.
+authors:
+  - family-names: "Purnawansyah"
+    affiliation: "Universitas Muslim Indonesia"
+  - given-names: "Ramdan"
+    family-names: "Satra"
+    affiliation: "Universitas Muslim Indonesia"
+  - family-names: "Ichwal"
+    affiliation: "Universitas Muslim Indonesia"
+    orcid: "https://orcid.org/0009-0009-7597-0507"
+  - given-names: "Dedy"
+    family-names: "Atmajaya"
+    affiliation: "Universitas Muslim Indonesia"
+  - given-names: "Herdianti"
+    family-names: "Darwis"
+    affiliation: "Universitas Muslim Indonesia"
+  - family-names: "Fahmi"
+    affiliation: "Universitas Muslim Indonesia"
+keywords:
+  - "TLS 1.3"
+  - "post-quantum cryptography"
+  - "ML-KEM"
+  - "X25519MLKEM768"
+  - "performance evaluation"
+  - "reproducibility"
+

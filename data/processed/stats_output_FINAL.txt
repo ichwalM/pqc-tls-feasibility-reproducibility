@@ -1,0 +1,123 @@
+
+=== H1: overhead handshake hybrid vs classical (per tier) ===
+
+[high] classical mean=10.394ms (n=30), hybrid mean=11.718ms (n=30)
+  Selisih: +1.324ms (+12.7%)
+  t=6.937, p=0.0000, Cohen's d=1.791 (large)
+  -> H1 didukung: hybrid signifikan lebih lambat, effect size large.
+
+[low] classical mean=9.186ms (n=30), hybrid mean=9.830ms (n=30)
+  Selisih: +0.644ms (+7.0%)
+  t=12.575, p=0.0000, Cohen's d=3.247 (large)
+  -> H1 didukung: hybrid signifikan lebih lambat, effect size large.
+
+[mid] classical mean=9.060ms (n=30), hybrid mean=9.795ms (n=30)
+  Selisih: +0.735ms (+8.1%)
+  t=20.132, p=0.0000, Cohen's d=5.198 (large)
+  -> H1 didukung: hybrid signifikan lebih lambat, effect size large.
+
+=== H2: tier x suite (subset pure_handshake) ===
+                      sum_sq     df           F        PR(>F)    eta_sq
+C(suite)           36.533748    1.0  180.857782  9.956685e-29  0.206575
+C(tier)           101.078162    2.0  250.190210  6.502101e-52  0.571533
+C(suite):C(tier)    4.094176    2.0   10.133966  6.868903e-05  0.023150
+Residual           35.148458  174.0         NaN           NaN  0.198742
+
+F(2, 174) = 10.13, p = 0.0001, eta^2 = 0.023 (small)
+-> Signifikan secara statistik (p<0.05) TAPI effect size small (eta^2=0.023) -- kemungkinan besar ARTEFAK ukuran sampel besar, BUKAN efek substantif. Jangan diklaim sebagai temuan bermakna di paper tanpa qualifier ini.
+
+Tukey HSD (semua pasangan tier_suite -- fokus baca baris classical vs hybrid PADA TIER YANG SAMA, abaikan baris lintas tier):
+        Multiple Comparison of Means - Tukey HSD, FWER=0.05        
+===================================================================
+    group1         group2    meandiff p-adj   lower   upper  reject
+-------------------------------------------------------------------
+high_classical   high_hybrid   1.3244    0.0  0.9899  1.6588   True
+high_classical low_classical  -1.2075    0.0 -1.5419 -0.8731   True
+high_classical    low_hybrid  -0.5636    0.0  -0.898 -0.2291   True
+high_classical mid_classical  -1.3337    0.0 -1.6681 -0.9993   True
+high_classical    mid_hybrid  -0.5989    0.0 -0.9333 -0.2645   True
+   high_hybrid low_classical  -2.5319    0.0 -2.8663 -2.1974   True
+   high_hybrid    low_hybrid  -1.8879    0.0 -2.2224 -1.5535   True
+   high_hybrid mid_classical  -2.6581    0.0 -2.9925 -2.3236   True
+   high_hybrid    mid_hybrid  -1.9233    0.0 -2.2577 -1.5888   True
+ low_classical    low_hybrid   0.6439    0.0  0.3095  0.9784   True
+ low_classical mid_classical  -0.1262 0.8858 -0.4606  0.2082  False
+ low_classical    mid_hybrid   0.6086    0.0  0.2742   0.943   True
+    low_hybrid mid_classical  -0.7701    0.0 -1.1046 -0.4357   True
+    low_hybrid    mid_hybrid  -0.0353 0.9996 -0.3698  0.2991  False
+ mid_classical    mid_hybrid   0.7348    0.0  0.4004  1.0692   True
+-------------------------------------------------------------------
+
+=== H3 [high]: concurrency x suite (latency_ms) ===
+                               sum_sq     df         F    PR(>F)    eta_sq
+C(suite)                 2.696164e+00    1.0  0.001800  0.966171  0.000002
+C(concurrency)           3.121159e+04    3.0  6.944471  0.000127  0.022823
+C(suite):C(concurrency)  3.481549e+00    3.0  0.000775  0.999970  0.000003
+Residual                 1.336351e+06  892.0       NaN       NaN  0.977173
+
+F(3, 892) = 0.00, p = 1.0000, eta^2 = 2.55e-06 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H3 [high]: concurrency x suite (latency_p99_ms) ===
+                               sum_sq     df         F    PR(>F)    eta_sq
+C(suite)                 3.576133e+02    1.0  0.076773  0.781783  0.000084
+C(concurrency)           1.218052e+05    3.0  8.716445  0.000011  0.028477
+C(suite):C(concurrency)  1.294954e+02    3.0  0.009267  0.998776  0.000030
+Residual                 4.154990e+06  892.0       NaN       NaN  0.971409
+
+F(3, 892) = 0.01, p = 0.9988, eta^2 = 3.03e-05 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H3 [low]: concurrency x suite (latency_ms) ===
+                               sum_sq     df         F    PR(>F)        eta_sq
+C(suite)                 5.986178e-02    1.0  0.000039  0.994988  4.328908e-08
+C(concurrency)           3.027757e+04    3.0  6.655972  0.000190  2.189524e-02
+C(suite):C(concurrency)  1.093595e+01    3.0  0.002404  0.999837  7.908338e-06
+Residual                 1.352549e+06  892.0       NaN       NaN  9.780968e-01
+
+F(3, 892) = 0.00, p = 0.9998, eta^2 = 7.91e-06 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H3 [low]: concurrency x suite (latency_p99_ms) ===
+                               sum_sq     df          F        PR(>F)    eta_sq
+C(suite)                 4.258307e+02    1.0   0.097423  7.550173e-01  0.000105
+C(concurrency)           1.551527e+05    3.0  11.832111  1.324759e-07  0.038265
+C(suite):C(concurrency)  2.030073e+02    3.0   0.015482  9.973726e-01  0.000050
+Residual                 3.898886e+06  892.0        NaN           NaN  0.961580
+
+F(3, 892) = 0.02, p = 0.9974, eta^2 = 5.01e-05 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H3 [mid]: concurrency x suite (latency_ms) ===
+                               sum_sq     df         F    PR(>F)    eta_sq
+C(suite)                 4.229878e+00    1.0  0.002823  0.957637  0.000003
+C(concurrency)           3.203911e+04    3.0  7.128019  0.000098  0.023412
+C(suite):C(concurrency)  1.798072e+01    3.0  0.004000  0.999651  0.000013
+Residual                 1.336457e+06  892.0       NaN       NaN  0.976572
+
+F(3, 892) = 0.00, p = 0.9997, eta^2 = 1.31e-05 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H3 [mid]: concurrency x suite (latency_p99_ms) ===
+                               sum_sq     df         F    PR(>F)    eta_sq
+C(suite)                 1.071689e+01    1.0  0.002299  0.961766  0.000002
+C(concurrency)           1.388246e+05    3.0  9.928427  0.000002  0.032305
+C(suite):C(concurrency)  9.854176e+02    3.0  0.070475  0.975709  0.000229
+Residual                 4.157475e+06  892.0       NaN       NaN  0.967463
+
+F(3, 892) = 0.07, p = 0.9757, eta^2 = 2.29e-04 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+=== H4: network x suite (end_to_end, semua tier) ===
+                           sum_sq      df  ...    PR(>F)        eta_sq
+C(suite)             9.633333e-03     1.0  ...  0.955322  2.338747e-09
+C(network)           4.110733e+06     3.0  ...  0.000000  9.979894e-01
+C(suite):C(network)  2.100496e+01     3.0  ...  0.077254  5.099510e-06
+Residual             8.260658e+03  2692.0  ...       NaN  2.005494e-03
+
+[4 rows x 5 columns]
+
+F(3, 2692) = 2.28, p = 0.0773, eta^2 = 5.10e-06 (negligible)
+-> Interaksi TIDAK signifikan dengan data ini.
+
+Selesai. Larangan sesuai §III: JANGAN tambahkan interaksi >=3 arah atau interaksi dgn measurement_type -- kalau butuh itu, catat sebagai keterbatasan/future work, bukan diam-diam ditambahkan ke model.

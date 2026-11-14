@@ -1,0 +1,126 @@
+=== CAPTURE TIME ===
+2026-09-16T14:37:54+08:00
+=== HOSTNAME AND OS ===
+ Static hostname: benchmark
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: REDACTED_MACHINE_ID
+         Boot ID: ec175e7ed1c241d6b781bb0f90499fde
+  Virtualization: kvm
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.8.0-138-generic
+    Architecture: x86-64
+ Hardware Vendor: QEMU
+  Hardware Model: Standard PC _i440FX + PIIX, 1996_
+Firmware Version: rel-1.17.0-0-gb52ca86e094d-prebuilt.qemu.org
+   Firmware Date: Tue 2014-04-01
+    Firmware Age: 12y 5month 2w 2d
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+Linux benchmark 6.8.0-138-generic #138-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 31 22:41:49 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+=== VIRTUALIZATION ===
+kvm
+=== CPU ===
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           40 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+Model name:                              QEMU Virtual CPU version 2.5+
+CPU family:                              15
+Model:                                   107
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                1
+BogoMIPS:                                5999.99
+Flags:                                   fpu de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx lm constant_tsc nopl xtopology cpuid tsc_known_freq pni ssse3 cx16 sse4_1 sse4_2 x2apic popcnt aes hypervisor lahf_lm cpuid_fault pti
+Hypervisor vendor:                       KVM
+Virtualization type:                     full
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               128 KiB (4 instances)
+L2 cache:                                16 MiB (4 instances)
+L3 cache:                                16 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Mitigation; Aligned branch/return thunks
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                      Mitigation; PTE Inversion
+Vulnerability Mds:                       Vulnerable: Clear CPU buffers attempted, no microcode; SMT Host state unknown
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Unknown: No mitigations
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Retpoline
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+4
+=== MEMORY ===
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       411Mi       7.3Gi       992Ki       281Mi       7.4Gi
+Swap:          4.0Gi          0B       4.0Gi
+=== NETWORK ===
+lo               UNKNOWN        REDACTED_MAC <LOOPBACK,UP,LOWER_UP> 
+ens18            UP             REDACTED_MAC <BROADCAST,MULTICAST,UP,LOWER_UP> 
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens18            UP             192.0.2.0/24 REDACTED_IPV6 
+driver: virtio_net
+version: 1.0.0
+firmware-version: 
+expansion-rom-version: 
+bus-info: 0000:00:12.0
+supports-statistics: yes
+supports-test: no
+supports-eeprom-access: no
+supports-register-dump: no
+supports-priv-flags: no
+=== OPENSSL ===
+OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.5.0 8 Apr 2025)
+built on: Mon Jul 27 17:26:32 2026 UTC
+platform: linux-x86_64
+options:  bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -O3 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+OPENSSLDIR: "/opt/openssl-3.5/ssl"
+ENGINESDIR: "/opt/openssl-3.5/lib64/engines-3"
+MODULESDIR: "/opt/openssl-3.5/lib64/ossl-modules"
+Seeding source: os-specific
+CPUINFO: OPENSSL_ia32cap=0x82b82201479bfffd:0x0000000000000000:0x0000000000000000:0x0000000000000000:0x0000000000000000
+=== WRK ===
+/usr/local/bin/wrk
+wrk 4.2.0 [epoll] Copyright (C) 2012 Will Glozer
+Usage: wrk <options> <url>                            
+  Options:                                            
+    -c, --connections <N>  Connections to keep open   
+    -d, --duration    <T>  Duration of test           
+    -t, --threads     <N>  Number of threads to use   
+                                                      
+    -s, --script      <S>  Load Lua script file       
+    -H, --header      <H>  Add header to request      
+        --latency          Print latency statistics   
+        --timeout     <T>  Socket/request timeout     
+    -v, --version          Print version details      
+                                                      
+  Numeric arguments may include a SI unit (1k, 1M, 1G)
+  Time arguments may include a time unit (2s, 2m, 2h)
+=== WRK LIBRARIES ===
+	libssl.so.3 => /opt/openssl-3.5/lib64/libssl.so.3 (0x00007d1dc7e86000)
+	libcrypto.so.3 => /opt/openssl-3.5/lib64/libcrypto.so.3 (0x00007d1dc7800000)

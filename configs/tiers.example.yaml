@@ -1,0 +1,43 @@
+# Isi sesuai hasil audit final di docs/hardware_audit.md.
+# ssh_target dipakai orchestrator untuk menyalakan resource_monitor.py di sisi
+# server secara remote (butuh SSH key-based auth sudah diset, passwordless).
+# Kalau tidak mau otomatisasi SSH, kosongkan ssh_target dan jalankan
+# resource_monitor.py manual di server tiap kali load_test.py jalan di client
+# (lihat README).
+
+tiers:
+  low:
+    host: "192.0.2.30"          # IP/hostname server low-tier
+    ssh_target: "experiment-a@192.0.2.30"    # e.g. user@10.0.0.11, kosongkan "" kalau manual
+    port_classical: 443
+    port_hybrid: 8443            # boleh port berbeda kalau classical & hybrid
+                                 # dijalankan sbg dua instance nginx terpisah
+  mid:
+    host: "192.0.2.10"
+    ssh_target: "experiment-b@192.0.2.10"
+    port_classical: 443
+    port_hybrid: 8443
+  high:
+    host: "192.0.2.40"
+    ssh_target: "CHANGE_ME"
+    port_classical: 443
+    port_hybrid: 443
+
+groups:
+  classical: "X25519"
+  hybrid: "X25519MLKEM768"   # verifikasi nama persis dgn `openssl list -kem-algorithms`
+
+matrix:
+  concurrency: [1, 10, 50, 100]
+  # REVISI 2026-07-27 (lihat docs/decision-log.md): delay25 dibuang (interpolatif,
+  # tidak menambah insight), delay100 WAJIB dipertahankan -- penopang utama H4
+  # (tren overhead relatif mengecil seiring latency naik butuh >=2 titik delay).
+  network_conditions: ["baseline", "delay50", "delay100", "loss1"]
+  runs_per_combination: 30   # TIDAK dinegosiasi -- batas bawah statistik kita
+
+pilot:
+  # Subset kecil untuk smoke test pipeline sebelum commit ke matriks penuh
+  tiers: ["low"]
+  concurrency: [1, 50]
+  network_conditions: ["baseline", "delay50"]
+  runs_per_combination: 5

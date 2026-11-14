@@ -1,0 +1,119 @@
+=== Hardware audit: tier=low | 2026-08-01T13:45:53Z ===
+
+--- Virtualisasi (WAJIB: pastikan bare-metal kecuali sengaja diuji sbg VM) ---
+none
+none (bare-metal)
+
+--- CPU ---
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  4
+On-line CPU(s) list:                     0-3
+Vendor ID:                               GenuineIntel
+BIOS Vendor ID:                          Intel
+Model name:                              Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz
+BIOS Model name:                         Intel(R) Core(TM) i5-4460 CPU @ 3.20GHz Fill By OEM CPU @ 3.2GHz
+BIOS CPU family:                         205
+CPU family:                              6
+Model:                                   60
+Thread(s) per core:                      1
+Core(s) per socket:                      4
+Socket(s):                               1
+Stepping:                                3
+CPU(s) scaling MHz:                      61%
+CPU max MHz:                             3400.0000
+CPU min MHz:                             800.0000
+BogoMIPS:                                6385.42
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault pti ssbd ibrs ibpb stibp tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts vnmi md_clear flush_l1d ibpb_exit_to_user
+Virtualization:                          VT-x
+L1d cache:                               128 KiB (4 instances)
+L1i cache:                               128 KiB (4 instances)
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                6 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0-3
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             KVM: Mitigation: VMX disabled
+Vulnerability L1tf:                      Mitigation; PTE Inversion; VMX conditional cache flushes, SMT disabled
+Vulnerability Mds:                       Mitigation; Clear CPU buffers; SMT disabled
+Vulnerability Meltdown:                  Mitigation; PTI
+Vulnerability Mmio stale data:           Unknown: No mitigations
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Not affected
+Vulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Mitigation; Microcode
+Vulnerability Tsa:                       Not affected
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Mitigation; IBPB before exit to userspace
+
+AES-NI tersedia?
+aes
+
+--- RAM ---
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       477Mi       7.1Gi       6.4Mi       347Mi       7.2Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+Detail slot/generasi RAM (butuh sudo):
+	Error Correction Type: None
+	Size: No Module Installed
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: Unknown
+	Size: No Module Installed
+	Locator: ChannelA-DIMM1
+	Bank Locator: BANK 1
+	Type: Unknown
+	Size: 8 GB
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 2
+	Type: DDR3
+	Speed: 1333 MT/s
+	Configured Memory Speed: 1333 MT/s
+	Size: No Module Installed
+	Locator: ChannelB-DIMM1
+	Bank Locator: BANK 3
+	Type: Unknown
+
+--- Disk ---
+NAME   SIZE ROTA MODEL
+sda  931.5G    1 ST1000DM010-2EP1
+(ROTA=1 -> HDD, ROTA=0 -> SSD/NVMe)
+
+--- OS & Kernel ---
+NAME="Ubuntu"
+VERSION="24.04.4 LTS (Noble Numbat)"
+6.8.0-136-generic
+
+--- OpenSSL ---
+OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)
+(Pastikan ini path binary yang benar-benar dipakai nginx -- cek dengan
+ 'which openssl' dan bandingkan dengan --with-openssl saat build nginx)
+
+--- Jaringan ---
+lo               UNKNOWN        REDACTED_MAC <LOOPBACK,UP,LOWER_UP> 
+enp2s0           UP             REDACTED_MAC <BROADCAST,MULTICAST,UP,LOWER_UP> 
+(Pastikan interface eksperimen Ethernet, bukan wlan*)
+
+--- Bandwidth memori kasar (kontrol confound RAM generasi beda) ---
+61249.77 MiB transferred (6123.89 MiB/sec)
+    total time:                          10.0000s
+
+--- Baseline throughput AES (kontrol confound arsitektur/AES-NI) ---
+version: 3.0.13
+built on: Tue Jun  2 19:33:25 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -m64 -Wa,--noexecstack -Wall -fzero-call-used-regs=used-gpr -DOPENSSL_TLS_SECURITY_LEVEL=2 -Wa,--noexecstack -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/openssl-gza1f8/openssl-3.0.13=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/openssl-gza1f8/openssl-3.0.13=/usr/src/openssl-3.0.13-0ubuntu3.11 -DOPENSSL_USE_NODELETE -DL_ENDIAN -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG -Wdate-time -D_FORTIFY_SOURCE=3
+CPUINFO: OPENSSL_ia32cap=0x7ffaf3bfffebffff:0x27ab
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes  16384 bytes
+AES-256-GCM     281748.04k   825303.51k  1801986.30k  2226524.84k  2566725.63k  2605700.44k
+
+--- Grup KEM yang didukung OpenSSL ini ---
+Tidak ada grup PQC terdeteksi -- OpenSSL ini kemungkinan < 3.5

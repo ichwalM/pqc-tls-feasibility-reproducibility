@@ -1,0 +1,1321 @@
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+[1/30] 9.07 ms  ok=True  grup=X25519
+[2/30] 9.10 ms  ok=True  grup=X25519
+[3/30] 9.16 ms  ok=True  grup=X25519
+[4/30] 8.86 ms  ok=True  grup=X25519
+[5/30] 8.86 ms  ok=True  grup=X25519
+[6/30] 9.05 ms  ok=True  grup=X25519
+[7/30] 8.94 ms  ok=True  grup=X25519
+[8/30] 8.81 ms  ok=True  grup=X25519
+[9/30] 9.19 ms  ok=True  grup=X25519
+[10/30] 9.06 ms  ok=True  grup=X25519
+[11/30] 9.17 ms  ok=True  grup=X25519
+[12/30] 8.99 ms  ok=True  grup=X25519
+[13/30] 8.98 ms  ok=True  grup=X25519
+[14/30] 9.04 ms  ok=True  grup=X25519
+[15/30] 9.08 ms  ok=True  grup=X25519
+[16/30] 9.01 ms  ok=True  grup=X25519
+[17/30] 9.19 ms  ok=True  grup=X25519
+[18/30] 9.31 ms  ok=True  grup=X25519
+[19/30] 8.96 ms  ok=True  grup=X25519
+[20/30] 9.19 ms  ok=True  grup=X25519
+[21/30] 9.07 ms  ok=True  grup=X25519
+[22/30] 9.02 ms  ok=True  grup=X25519
+[23/30] 9.14 ms  ok=True  grup=X25519
+[24/30] 8.91 ms  ok=True  grup=X25519
+[25/30] 9.30 ms  ok=True  grup=X25519
+[26/30] 9.22 ms  ok=True  grup=X25519
+[27/30] 9.20 ms  ok=True  grup=X25519
+[28/30] 9.01 ms  ok=True  grup=X25519
+[29/30] 9.00 ms  ok=True  grup=X25519
+[30/30] 8.91 ms  ok=True  grup=X25519
+
+Selesai: 30/30 sukses -> /home/benchmark/pqc-tls-feasibility/data/raw/all_runs.csv
+Netem cleared di ens18.
+Netem cleared di ens18.
+== MODE FULL ==
+Total kombinasi (batch): 96
+
+[1/96] suite=classical tier=low network=baseline concurrency=1 -> pure_handshake
+[GAGAL] batch 1 (classical/low/baseline/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[2/96] suite=classical tier=low network=baseline concurrency=10 -> end_to_end
+[GAGAL] batch 2 (classical/low/baseline/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[3/96] suite=classical tier=low network=baseline concurrency=50 -> end_to_end
+[GAGAL] batch 3 (classical/low/baseline/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[4/96] suite=classical tier=low network=baseline concurrency=100 -> end_to_end
+[GAGAL] batch 4 (classical/low/baseline/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[5/96] suite=classical tier=low network=delay50 concurrency=1 -> end_to_end
+[GAGAL] batch 5 (classical/low/delay50/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[6/96] suite=classical tier=low network=delay50 concurrency=10 -> end_to_end
+[GAGAL] batch 6 (classical/low/delay50/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[7/96] suite=classical tier=low network=delay50 concurrency=50 -> end_to_end
+[GAGAL] batch 7 (classical/low/delay50/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[8/96] suite=classical tier=low network=delay50 concurrency=100 -> end_to_end
+[GAGAL] batch 8 (classical/low/delay50/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[9/96] suite=classical tier=low network=delay100 concurrency=1 -> end_to_end
+[GAGAL] batch 9 (classical/low/delay100/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[10/96] suite=classical tier=low network=delay100 concurrency=10 -> end_to_end
+[GAGAL] batch 10 (classical/low/delay100/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[11/96] suite=classical tier=low network=delay100 concurrency=50 -> end_to_end
+[GAGAL] batch 11 (classical/low/delay100/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[12/96] suite=classical tier=low network=delay100 concurrency=100 -> end_to_end
+[GAGAL] batch 12 (classical/low/delay100/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[13/96] suite=classical tier=low network=loss1 concurrency=1 -> end_to_end
+[GAGAL] batch 13 (classical/low/loss1/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[14/96] suite=classical tier=low network=loss1 concurrency=10 -> end_to_end
+[GAGAL] batch 14 (classical/low/loss1/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[15/96] suite=classical tier=low network=loss1 concurrency=50 -> end_to_end
+[GAGAL] batch 15 (classical/low/loss1/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[16/96] suite=classical tier=low network=loss1 concurrency=100 -> end_to_end
+[GAGAL] batch 16 (classical/low/loss1/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[17/96] suite=classical tier=mid network=baseline concurrency=1 -> pure_handshake
+
+[18/96] suite=classical tier=mid network=baseline concurrency=10 -> end_to_end
+[classical_mid_baseline_c10_000] OK -- latency_avg=1.8ms cpu=75.6% failures=0
+[classical_mid_baseline_c10_001] OK -- latency_avg=1.8ms cpu=75.43% failures=0
+[classical_mid_baseline_c10_002] OK -- latency_avg=1.81ms cpu=75.43% failures=0
+[classical_mid_baseline_c10_003] OK -- latency_avg=1.79ms cpu=76.23% failures=0
+[classical_mid_baseline_c10_004] OK -- latency_avg=1.8ms cpu=76.69% failures=0
+[classical_mid_baseline_c10_005] OK -- latency_avg=1.8ms cpu=76.8% failures=0
+[classical_mid_baseline_c10_006] OK -- latency_avg=1.82ms cpu=77.11% failures=0
+[classical_mid_baseline_c10_007] OK -- latency_avg=1.82ms cpu=77.6% failures=0
+[classical_mid_baseline_c10_008] OK -- latency_avg=1.81ms cpu=77.06% failures=0
+[classical_mid_baseline_c10_009] OK -- latency_avg=1.81ms cpu=77.49% failures=0
+[classical_mid_baseline_c10_010] OK -- latency_avg=1.79ms cpu=78.34% failures=0
+[classical_mid_baseline_c10_011] OK -- latency_avg=1.83ms cpu=76.6% failures=0
+[classical_mid_baseline_c10_012] OK -- latency_avg=1.83ms cpu=76.91% failures=0
+[classical_mid_baseline_c10_013] OK -- latency_avg=1.81ms cpu=77.74% failures=0
+[classical_mid_baseline_c10_014] OK -- latency_avg=1.84ms cpu=76.09% failures=0
+[classical_mid_baseline_c10_015] OK -- latency_avg=1.81ms cpu=77.86% failures=0
+[classical_mid_baseline_c10_016] OK -- latency_avg=1.83ms cpu=77.6% failures=0
+[classical_mid_baseline_c10_017] OK -- latency_avg=1.84ms cpu=75.97% failures=0
+[classical_mid_baseline_c10_018] OK -- latency_avg=1.82ms cpu=77.54% failures=0
+[classical_mid_baseline_c10_019] OK -- latency_avg=1.81ms cpu=77.26% failures=0
+[classical_mid_baseline_c10_020] OK -- latency_avg=1.84ms cpu=76.23% failures=0
+[classical_mid_baseline_c10_021] OK -- latency_avg=1.83ms cpu=77.14% failures=0
+[classical_mid_baseline_c10_022] OK -- latency_avg=1.8ms cpu=77.66% failures=0
+[classical_mid_baseline_c10_023] OK -- latency_avg=1.78ms cpu=78.49% failures=0
+[classical_mid_baseline_c10_024] OK -- latency_avg=1.85ms cpu=76.09% failures=0
+[classical_mid_baseline_c10_025] OK -- latency_avg=1.84ms cpu=76.46% failures=0
+[classical_mid_baseline_c10_026] OK -- latency_avg=1.82ms cpu=77.06% failures=0
+[classical_mid_baseline_c10_027] OK -- latency_avg=1.8ms cpu=78.2% failures=0
+[classical_mid_baseline_c10_028] OK -- latency_avg=1.82ms cpu=77.4% failures=0
+[classical_mid_baseline_c10_029] OK -- latency_avg=1.84ms cpu=76.43% failures=0
+
+[19/96] suite=classical tier=mid network=baseline concurrency=50 -> end_to_end
+[classical_mid_baseline_c50_000] OK -- latency_avg=1.89ms cpu=85.8% failures=0
+[classical_mid_baseline_c50_001] OK -- latency_avg=1.9ms cpu=85.83% failures=0
+[classical_mid_baseline_c50_002] OK -- latency_avg=1.93ms cpu=85.74% failures=0
+[classical_mid_baseline_c50_003] OK -- latency_avg=1.92ms cpu=85.77% failures=0
+[classical_mid_baseline_c50_004] OK -- latency_avg=1.94ms cpu=85.86% failures=0
+[classical_mid_baseline_c50_005] OK -- latency_avg=1.92ms cpu=85.69% failures=0
+[classical_mid_baseline_c50_006] OK -- latency_avg=1.95ms cpu=85.83% failures=0
+[classical_mid_baseline_c50_007] OK -- latency_avg=1.93ms cpu=85.74% failures=0
+[classical_mid_baseline_c50_008] OK -- latency_avg=1.92ms cpu=85.94% failures=0
+[classical_mid_baseline_c50_009] OK -- latency_avg=1.95ms cpu=85.74% failures=0
+[classical_mid_baseline_c50_010] OK -- latency_avg=1.94ms cpu=85.86% failures=0
+[classical_mid_baseline_c50_011] OK -- latency_avg=1.93ms cpu=86.0% failures=0
+[classical_mid_baseline_c50_012] OK -- latency_avg=1.93ms cpu=85.83% failures=0
+[classical_mid_baseline_c50_013] OK -- latency_avg=1.93ms cpu=85.77% failures=0
+[classical_mid_baseline_c50_014] OK -- latency_avg=1.97ms cpu=85.97% failures=0
+[classical_mid_baseline_c50_015] OK -- latency_avg=1.94ms cpu=85.8% failures=0
+[classical_mid_baseline_c50_016] OK -- latency_avg=1.95ms cpu=85.8% failures=0
+[classical_mid_baseline_c50_017] OK -- latency_avg=1.91ms cpu=85.8% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[classical_mid_baseline_c50_018] OK -- latency_avg=1.95ms cpu=85.74% failures=0
+[classical_mid_baseline_c50_019] OK -- latency_avg=1.97ms cpu=85.8% failures=0
+[classical_mid_baseline_c50_020] OK -- latency_avg=1.92ms cpu=85.94% failures=0
+[classical_mid_baseline_c50_021] OK -- latency_avg=1.95ms cpu=85.91% failures=0
+[classical_mid_baseline_c50_022] OK -- latency_avg=1.98ms cpu=85.97% failures=0
+[classical_mid_baseline_c50_023] OK -- latency_avg=1.92ms cpu=85.77% failures=0
+[classical_mid_baseline_c50_024] OK -- latency_avg=1.95ms cpu=85.69% failures=0
+[classical_mid_baseline_c50_025] OK -- latency_avg=1.95ms cpu=85.69% failures=0
+[classical_mid_baseline_c50_026] OK -- latency_avg=1.93ms cpu=85.83% failures=0
+[classical_mid_baseline_c50_027] OK -- latency_avg=1.94ms cpu=85.97% failures=0
+[classical_mid_baseline_c50_028] OK -- latency_avg=1.95ms cpu=85.97% failures=0
+[classical_mid_baseline_c50_029] OK -- latency_avg=1.97ms cpu=85.94% failures=0
+
+[20/96] suite=classical tier=mid network=baseline concurrency=100 -> end_to_end
+[classical_mid_baseline_c100_000] OK -- latency_avg=2.04ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_001] OK -- latency_avg=2.05ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_002] OK -- latency_avg=2.08ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_003] OK -- latency_avg=2.04ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_004] OK -- latency_avg=2.11ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_005] OK -- latency_avg=2.08ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_006] OK -- latency_avg=2.08ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_007] OK -- latency_avg=2.15ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_008] OK -- latency_avg=2.07ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_009] OK -- latency_avg=2.09ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_010] OK -- latency_avg=2.08ms cpu=85.86% failures=0
+[classical_mid_baseline_c100_011] OK -- latency_avg=2.08ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_012] OK -- latency_avg=2.05ms cpu=85.86% failures=0
+[classical_mid_baseline_c100_013] OK -- latency_avg=2.12ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_014] OK -- latency_avg=2.11ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_015] OK -- latency_avg=2.06ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_016] OK -- latency_avg=2.15ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_017] OK -- latency_avg=2.21ms cpu=85.74% failures=0
+[classical_mid_baseline_c100_018] OK -- latency_avg=2.12ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_019] OK -- latency_avg=2.06ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_020] OK -- latency_avg=2.11ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_021] OK -- latency_avg=2.06ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_022] OK -- latency_avg=2.09ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_023] OK -- latency_avg=2.09ms cpu=85.86% failures=0
+[classical_mid_baseline_c100_024] OK -- latency_avg=2.09ms cpu=85.91% failures=0
+[classical_mid_baseline_c100_025] OK -- latency_avg=2.13ms cpu=85.89% failures=0
+[classical_mid_baseline_c100_026] OK -- latency_avg=2.05ms cpu=85.86% failures=0
+[classical_mid_baseline_c100_027] OK -- latency_avg=2.12ms cpu=85.94% failures=0
+[classical_mid_baseline_c100_028] OK -- latency_avg=2.06ms cpu=85.86% failures=0
+[classical_mid_baseline_c100_029] OK -- latency_avg=2.16ms cpu=85.89% failures=0
+
+[21/96] suite=classical tier=mid network=delay50 concurrency=1 -> end_to_end
+[classical_mid_delay50_c1_000] OK -- latency_avg=50.71ms cpu=0.4% failures=0
+[classical_mid_delay50_c1_001] OK -- latency_avg=50.68ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_002] OK -- latency_avg=50.71ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_003] OK -- latency_avg=50.71ms cpu=0.4% failures=0
+[classical_mid_delay50_c1_004] OK -- latency_avg=50.72ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_005] OK -- latency_avg=50.68ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_006] OK -- latency_avg=50.69ms cpu=0.4% failures=0
+[classical_mid_delay50_c1_007] OK -- latency_avg=50.71ms cpu=0.34% failures=0
+[classical_mid_delay50_c1_008] OK -- latency_avg=50.66ms cpu=0.51% failures=0
+[classical_mid_delay50_c1_009] OK -- latency_avg=50.7ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_010] OK -- latency_avg=50.72ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_011] OK -- latency_avg=50.7ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_012] OK -- latency_avg=50.69ms cpu=0.51% failures=0
+[classical_mid_delay50_c1_013] OK -- latency_avg=50.68ms cpu=0.34% failures=0
+[classical_mid_delay50_c1_014] OK -- latency_avg=50.71ms cpu=0.51% failures=0
+[classical_mid_delay50_c1_015] OK -- latency_avg=50.71ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_016] OK -- latency_avg=50.67ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_017] OK -- latency_avg=50.71ms cpu=0.4% failures=0
+[classical_mid_delay50_c1_018] OK -- latency_avg=50.71ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_019] OK -- latency_avg=50.69ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_020] OK -- latency_avg=50.72ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_021] OK -- latency_avg=50.66ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_022] OK -- latency_avg=50.71ms cpu=0.51% failures=0
+[classical_mid_delay50_c1_023] OK -- latency_avg=50.68ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_024] OK -- latency_avg=50.7ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_025] OK -- latency_avg=50.71ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_026] OK -- latency_avg=50.71ms cpu=0.51% failures=0
+[classical_mid_delay50_c1_027] OK -- latency_avg=50.68ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_028] OK -- latency_avg=50.68ms cpu=0.37% failures=0
+[classical_mid_delay50_c1_029] OK -- latency_avg=50.72ms cpu=0.37% failures=0
+
+[22/96] suite=classical tier=mid network=delay50 concurrency=10 -> end_to_end
+[classical_mid_delay50_c10_000] OK -- latency_avg=50.54ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_001] OK -- latency_avg=50.57ms cpu=2.94% failures=0
+[classical_mid_delay50_c10_002] OK -- latency_avg=50.51ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_003] OK -- latency_avg=50.49ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_004] OK -- latency_avg=50.56ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_005] OK -- latency_avg=50.56ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_006] OK -- latency_avg=50.43ms cpu=3.03% failures=0
+[classical_mid_delay50_c10_007] OK -- latency_avg=50.48ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_008] OK -- latency_avg=50.45ms cpu=3.0% failures=0
+[classical_mid_delay50_c10_009] OK -- latency_avg=50.46ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_010] OK -- latency_avg=50.51ms cpu=3.03% failures=0
+[classical_mid_delay50_c10_011] OK -- latency_avg=50.54ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_012] OK -- latency_avg=50.54ms cpu=3.06% failures=0
+[classical_mid_delay50_c10_013] OK -- latency_avg=50.52ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_014] OK -- latency_avg=50.52ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_015] OK -- latency_avg=50.47ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_016] OK -- latency_avg=50.51ms cpu=3.06% failures=0
+[classical_mid_delay50_c10_017] OK -- latency_avg=50.51ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_018] OK -- latency_avg=50.51ms cpu=3.03% failures=0
+[classical_mid_delay50_c10_019] OK -- latency_avg=50.53ms cpu=2.94% failures=0
+[classical_mid_delay50_c10_020] OK -- latency_avg=50.45ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_021] OK -- latency_avg=50.47ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_022] OK -- latency_avg=50.48ms cpu=3.03% failures=0
+[classical_mid_delay50_c10_023] OK -- latency_avg=50.45ms cpu=2.89% failures=0
+[classical_mid_delay50_c10_024] OK -- latency_avg=50.49ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_025] OK -- latency_avg=50.53ms cpu=2.94% failures=0
+[classical_mid_delay50_c10_026] OK -- latency_avg=50.54ms cpu=2.94% failures=0
+[classical_mid_delay50_c10_027] OK -- latency_avg=50.52ms cpu=2.91% failures=0
+[classical_mid_delay50_c10_028] OK -- latency_avg=50.58ms cpu=3.03% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[classical_mid_delay50_c10_029] OK -- latency_avg=50.48ms cpu=2.91% failures=0
+
+[23/96] suite=classical tier=mid network=delay50 concurrency=50 -> end_to_end
+[classical_mid_delay50_c50_000] OK -- latency_avg=50.41ms cpu=17.29% failures=0
+[classical_mid_delay50_c50_001] OK -- latency_avg=50.39ms cpu=16.71% failures=0
+[classical_mid_delay50_c50_002] OK -- latency_avg=50.35ms cpu=17.09% failures=0
+[classical_mid_delay50_c50_003] OK -- latency_avg=50.37ms cpu=16.97% failures=0
+[classical_mid_delay50_c50_004] OK -- latency_avg=50.37ms cpu=17.06% failures=0
+[classical_mid_delay50_c50_005] OK -- latency_avg=50.38ms cpu=16.8% failures=0
+[classical_mid_delay50_c50_006] OK -- latency_avg=50.36ms cpu=17.26% failures=0
+[classical_mid_delay50_c50_007] OK -- latency_avg=50.34ms cpu=16.74% failures=0
+[classical_mid_delay50_c50_008] OK -- latency_avg=50.4ms cpu=17.14% failures=0
+[classical_mid_delay50_c50_009] OK -- latency_avg=50.42ms cpu=17.03% failures=0
+[classical_mid_delay50_c50_010] OK -- latency_avg=50.39ms cpu=17.31% failures=0
+[classical_mid_delay50_c50_011] OK -- latency_avg=50.36ms cpu=16.77% failures=0
+[classical_mid_delay50_c50_012] OK -- latency_avg=50.39ms cpu=17.26% failures=0
+[classical_mid_delay50_c50_013] OK -- latency_avg=50.43ms cpu=16.86% failures=0
+[classical_mid_delay50_c50_014] OK -- latency_avg=50.38ms cpu=17.17% failures=0
+[classical_mid_delay50_c50_015] OK -- latency_avg=50.38ms cpu=16.83% failures=0
+[classical_mid_delay50_c50_016] OK -- latency_avg=50.39ms cpu=17.29% failures=0
+[classical_mid_delay50_c50_017] OK -- latency_avg=50.35ms cpu=16.77% failures=0
+[classical_mid_delay50_c50_018] OK -- latency_avg=50.34ms cpu=17.26% failures=0
+[classical_mid_delay50_c50_019] OK -- latency_avg=50.4ms cpu=16.86% failures=0
+[classical_mid_delay50_c50_020] OK -- latency_avg=50.37ms cpu=17.17% failures=0
+[classical_mid_delay50_c50_021] OK -- latency_avg=50.42ms cpu=16.77% failures=0
+[classical_mid_delay50_c50_022] OK -- latency_avg=50.41ms cpu=17.09% failures=0
+[classical_mid_delay50_c50_023] OK -- latency_avg=50.38ms cpu=16.94% failures=0
+[classical_mid_delay50_c50_024] OK -- latency_avg=50.35ms cpu=17.17% failures=0
+[classical_mid_delay50_c50_025] OK -- latency_avg=50.38ms cpu=16.94% failures=0
+[classical_mid_delay50_c50_026] OK -- latency_avg=50.35ms cpu=17.26% failures=0
+[classical_mid_delay50_c50_027] OK -- latency_avg=50.43ms cpu=16.91% failures=0
+[classical_mid_delay50_c50_028] OK -- latency_avg=50.39ms cpu=17.06% failures=0
+[classical_mid_delay50_c50_029] OK -- latency_avg=50.36ms cpu=16.8% failures=0
+
+[24/96] suite=classical tier=mid network=delay50 concurrency=100 -> end_to_end
+[classical_mid_delay50_c100_000] OK -- latency_avg=50.51ms cpu=35.6% failures=0
+[classical_mid_delay50_c100_001] OK -- latency_avg=50.54ms cpu=34.71% failures=0
+[classical_mid_delay50_c100_002] OK -- latency_avg=50.48ms cpu=35.37% failures=0
+[classical_mid_delay50_c100_003] OK -- latency_avg=50.5ms cpu=34.77% failures=0
+[classical_mid_delay50_c100_004] OK -- latency_avg=50.6ms cpu=35.57% failures=0
+[classical_mid_delay50_c100_005] OK -- latency_avg=50.58ms cpu=34.97% failures=0
+[classical_mid_delay50_c100_006] OK -- latency_avg=50.57ms cpu=35.83% failures=0
+[classical_mid_delay50_c100_007] OK -- latency_avg=50.6ms cpu=35.11% failures=0
+[classical_mid_delay50_c100_008] OK -- latency_avg=50.49ms cpu=35.77% failures=0
+[classical_mid_delay50_c100_009] OK -- latency_avg=50.59ms cpu=35.2% failures=0
+[classical_mid_delay50_c100_010] OK -- latency_avg=50.66ms cpu=35.77% failures=0
+[classical_mid_delay50_c100_011] OK -- latency_avg=50.53ms cpu=35.17% failures=0
+[classical_mid_delay50_c100_012] OK -- latency_avg=50.54ms cpu=36.0% failures=0
+[classical_mid_delay50_c100_013] OK -- latency_avg=50.66ms cpu=35.2% failures=0
+[classical_mid_delay50_c100_014] OK -- latency_avg=50.61ms cpu=35.94% failures=0
+[classical_mid_delay50_c100_015] OK -- latency_avg=50.69ms cpu=34.97% failures=0
+[classical_mid_delay50_c100_016] OK -- latency_avg=50.54ms cpu=35.89% failures=0
+[classical_mid_delay50_c100_017] OK -- latency_avg=50.57ms cpu=35.29% failures=0
+[classical_mid_delay50_c100_018] OK -- latency_avg=50.51ms cpu=35.89% failures=0
+[classical_mid_delay50_c100_019] OK -- latency_avg=50.62ms cpu=35.17% failures=0
+[classical_mid_delay50_c100_020] OK -- latency_avg=50.65ms cpu=35.8% failures=0
+[classical_mid_delay50_c100_021] OK -- latency_avg=50.59ms cpu=35.2% failures=0
+[classical_mid_delay50_c100_022] OK -- latency_avg=50.58ms cpu=35.97% failures=0
+[classical_mid_delay50_c100_023] OK -- latency_avg=50.52ms cpu=35.23% failures=0
+[classical_mid_delay50_c100_024] OK -- latency_avg=50.58ms cpu=36.03% failures=0
+[classical_mid_delay50_c100_025] OK -- latency_avg=50.52ms cpu=35.23% failures=0
+[classical_mid_delay50_c100_026] OK -- latency_avg=50.65ms cpu=35.77% failures=0
+[classical_mid_delay50_c100_027] OK -- latency_avg=50.58ms cpu=35.34% failures=0
+[classical_mid_delay50_c100_028] OK -- latency_avg=50.71ms cpu=35.77% failures=0
+[classical_mid_delay50_c100_029] OK -- latency_avg=50.54ms cpu=35.26% failures=0
+
+[25/96] suite=classical tier=mid network=delay100 concurrency=1 -> end_to_end
+[classical_mid_delay100_c1_000] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_001] OK -- latency_avg=100.72ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_002] OK -- latency_avg=100.72ms cpu=0.34% failures=0
+[classical_mid_delay100_c1_003] OK -- latency_avg=100.71ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_004] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_005] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_006] OK -- latency_avg=100.73ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_007] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_008] OK -- latency_avg=100.69ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_009] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_010] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_011] OK -- latency_avg=100.7ms cpu=0.31% failures=0
+[classical_mid_delay100_c1_012] OK -- latency_avg=100.71ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_013] OK -- latency_avg=100.72ms cpu=0.31% failures=0
+[classical_mid_delay100_c1_014] OK -- latency_avg=100.7ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_015] OK -- latency_avg=100.71ms cpu=0.31% failures=0
+[classical_mid_delay100_c1_016] OK -- latency_avg=100.73ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_017] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_018] OK -- latency_avg=100.7ms cpu=0.14% failures=0
+[classical_mid_delay100_c1_019] OK -- latency_avg=100.71ms cpu=0.31% failures=0
+[classical_mid_delay100_c1_020] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_021] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_022] OK -- latency_avg=100.7ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_023] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_024] OK -- latency_avg=100.69ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_025] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_026] OK -- latency_avg=100.72ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_027] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[classical_mid_delay100_c1_028] OK -- latency_avg=100.7ms cpu=0.17% failures=0
+[classical_mid_delay100_c1_029] OK -- latency_avg=100.73ms cpu=0.2% failures=0
+
+[26/96] suite=classical tier=mid network=delay100 concurrency=10 -> end_to_end
+[classical_mid_delay100_c10_000] OK -- latency_avg=100.49ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_001] OK -- latency_avg=100.51ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_002] OK -- latency_avg=100.52ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_003] OK -- latency_avg=100.5ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_004] OK -- latency_avg=100.48ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_005] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_006] OK -- latency_avg=100.44ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_007] OK -- latency_avg=100.47ms cpu=1.43% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[classical_mid_delay100_c10_008] OK -- latency_avg=100.47ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_009] OK -- latency_avg=100.52ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_010] OK -- latency_avg=100.52ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_011] OK -- latency_avg=100.44ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_012] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_013] OK -- latency_avg=100.49ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_014] OK -- latency_avg=100.46ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_015] OK -- latency_avg=100.46ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_016] OK -- latency_avg=100.52ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_017] OK -- latency_avg=100.52ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_018] OK -- latency_avg=100.46ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_019] OK -- latency_avg=100.48ms cpu=1.6% failures=0
+[classical_mid_delay100_c10_020] OK -- latency_avg=100.48ms cpu=1.4% failures=0
+[classical_mid_delay100_c10_021] OK -- latency_avg=100.51ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_022] OK -- latency_avg=100.45ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_023] OK -- latency_avg=100.46ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_024] OK -- latency_avg=100.53ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_025] OK -- latency_avg=100.46ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_026] OK -- latency_avg=100.51ms cpu=1.46% failures=0
+[classical_mid_delay100_c10_027] OK -- latency_avg=100.51ms cpu=1.57% failures=0
+[classical_mid_delay100_c10_028] OK -- latency_avg=100.46ms cpu=1.43% failures=0
+[classical_mid_delay100_c10_029] OK -- latency_avg=100.51ms cpu=1.46% failures=0
+
+[27/96] suite=classical tier=mid network=delay100 concurrency=50 -> end_to_end
+[classical_mid_delay100_c50_000] OK -- latency_avg=100.34ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_001] OK -- latency_avg=100.35ms cpu=8.74% failures=0
+[classical_mid_delay100_c50_002] OK -- latency_avg=100.36ms cpu=8.37% failures=0
+[classical_mid_delay100_c50_003] OK -- latency_avg=100.35ms cpu=8.77% failures=0
+[classical_mid_delay100_c50_004] OK -- latency_avg=100.34ms cpu=8.43% failures=0
+[classical_mid_delay100_c50_005] OK -- latency_avg=100.34ms cpu=8.74% failures=0
+[classical_mid_delay100_c50_006] OK -- latency_avg=100.35ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_007] OK -- latency_avg=100.35ms cpu=8.74% failures=0
+[classical_mid_delay100_c50_008] OK -- latency_avg=100.34ms cpu=8.43% failures=0
+[classical_mid_delay100_c50_009] OK -- latency_avg=100.34ms cpu=8.74% failures=0
+[classical_mid_delay100_c50_010] OK -- latency_avg=100.36ms cpu=8.46% failures=0
+[classical_mid_delay100_c50_011] OK -- latency_avg=100.35ms cpu=8.74% failures=0
+[classical_mid_delay100_c50_012] OK -- latency_avg=100.35ms cpu=8.34% failures=0
+[classical_mid_delay100_c50_013] OK -- latency_avg=100.34ms cpu=8.6% failures=0
+[classical_mid_delay100_c50_014] OK -- latency_avg=100.34ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_015] OK -- latency_avg=100.34ms cpu=8.63% failures=0
+[classical_mid_delay100_c50_016] OK -- latency_avg=100.35ms cpu=8.34% failures=0
+[classical_mid_delay100_c50_017] OK -- latency_avg=100.39ms cpu=8.77% failures=0
+[classical_mid_delay100_c50_018] OK -- latency_avg=100.5ms cpu=8.66% failures=0
+[classical_mid_delay100_c50_019] OK -- latency_avg=100.34ms cpu=8.57% failures=0
+[classical_mid_delay100_c50_020] OK -- latency_avg=100.34ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_021] OK -- latency_avg=100.35ms cpu=8.71% failures=0
+[classical_mid_delay100_c50_022] OK -- latency_avg=100.34ms cpu=8.4% failures=0
+[classical_mid_delay100_c50_023] OK -- latency_avg=100.4ms cpu=8.94% failures=0
+[classical_mid_delay100_c50_024] OK -- latency_avg=100.34ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_025] OK -- latency_avg=100.34ms cpu=8.71% failures=0
+[classical_mid_delay100_c50_026] OK -- latency_avg=100.36ms cpu=8.31% failures=0
+[classical_mid_delay100_c50_027] OK -- latency_avg=100.34ms cpu=8.86% failures=0
+[classical_mid_delay100_c50_028] OK -- latency_avg=100.35ms cpu=8.46% failures=0
+[classical_mid_delay100_c50_029] OK -- latency_avg=100.36ms cpu=8.74% failures=0
+
+[28/96] suite=classical tier=mid network=delay100 concurrency=100 -> end_to_end
+[classical_mid_delay100_c100_000] OK -- latency_avg=100.33ms cpu=17.63% failures=0
+[classical_mid_delay100_c100_001] OK -- latency_avg=100.33ms cpu=18.2% failures=0
+[classical_mid_delay100_c100_002] OK -- latency_avg=100.34ms cpu=17.74% failures=0
+[classical_mid_delay100_c100_003] OK -- latency_avg=100.32ms cpu=18.09% failures=0
+[classical_mid_delay100_c100_004] OK -- latency_avg=100.33ms cpu=17.77% failures=0
+[classical_mid_delay100_c100_005] OK -- latency_avg=100.37ms cpu=18.14% failures=0
+[classical_mid_delay100_c100_006] OK -- latency_avg=100.32ms cpu=17.63% failures=0
+[classical_mid_delay100_c100_007] OK -- latency_avg=100.39ms cpu=18.2% failures=0
+[classical_mid_delay100_c100_008] OK -- latency_avg=100.32ms cpu=17.69% failures=0
+[classical_mid_delay100_c100_009] OK -- latency_avg=100.35ms cpu=18.29% failures=0
+[classical_mid_delay100_c100_010] OK -- latency_avg=100.33ms cpu=17.89% failures=0
+[classical_mid_delay100_c100_011] OK -- latency_avg=100.32ms cpu=18.11% failures=0
+[classical_mid_delay100_c100_012] OK -- latency_avg=100.32ms cpu=17.8% failures=0
+[classical_mid_delay100_c100_013] OK -- latency_avg=100.32ms cpu=18.14% failures=0
+[classical_mid_delay100_c100_014] OK -- latency_avg=100.33ms cpu=17.77% failures=0
+[classical_mid_delay100_c100_015] OK -- latency_avg=100.32ms cpu=18.11% failures=0
+[classical_mid_delay100_c100_016] OK -- latency_avg=100.34ms cpu=17.86% failures=0
+[classical_mid_delay100_c100_017] OK -- latency_avg=100.33ms cpu=18.14% failures=0
+[classical_mid_delay100_c100_018] OK -- latency_avg=100.32ms cpu=17.71% failures=0
+[classical_mid_delay100_c100_019] OK -- latency_avg=100.37ms cpu=18.11% failures=0
+[classical_mid_delay100_c100_020] OK -- latency_avg=100.34ms cpu=17.94% failures=0
+[classical_mid_delay100_c100_021] OK -- latency_avg=100.34ms cpu=18.09% failures=0
+[classical_mid_delay100_c100_022] OK -- latency_avg=100.34ms cpu=17.77% failures=0
+[classical_mid_delay100_c100_023] OK -- latency_avg=100.33ms cpu=18.11% failures=0
+[classical_mid_delay100_c100_024] OK -- latency_avg=100.34ms cpu=17.66% failures=0
+[classical_mid_delay100_c100_025] OK -- latency_avg=100.32ms cpu=18.11% failures=0
+[classical_mid_delay100_c100_026] OK -- latency_avg=100.33ms cpu=17.91% failures=0
+[classical_mid_delay100_c100_027] OK -- latency_avg=100.35ms cpu=18.17% failures=0
+[classical_mid_delay100_c100_028] OK -- latency_avg=100.36ms cpu=17.83% failures=0
+[classical_mid_delay100_c100_029] OK -- latency_avg=100.32ms cpu=18.09% failures=0
+
+[29/96] suite=classical tier=mid network=loss1 concurrency=1 -> end_to_end
+[classical_mid_loss1_c1_000] OK -- latency_avg=15.31ms cpu=4.34% failures=0
+[classical_mid_loss1_c1_001] OK -- latency_avg=13.45ms cpu=4.66% failures=0
+[classical_mid_loss1_c1_002] OK -- latency_avg=13.9ms cpu=3.43% failures=0
+[classical_mid_loss1_c1_003] OK -- latency_avg=23.78ms cpu=3.71% failures=0
+[classical_mid_loss1_c1_004] OK -- latency_avg=13.18ms cpu=3.14% failures=0
+[classical_mid_loss1_c1_005] OK -- latency_avg=20.56ms cpu=4.71% failures=0
+[classical_mid_loss1_c1_006] OK -- latency_avg=16.7ms cpu=3.63% failures=0
+[classical_mid_loss1_c1_007] OK -- latency_avg=14.85ms cpu=4.0% failures=0
+[classical_mid_loss1_c1_008] OK -- latency_avg=8.16ms cpu=3.06% failures=0
+[classical_mid_loss1_c1_009] OK -- latency_avg=14.8ms cpu=3.97% failures=0
+[classical_mid_loss1_c1_010] OK -- latency_avg=16.06ms cpu=3.71% failures=0
+[classical_mid_loss1_c1_011] OK -- latency_avg=14.84ms cpu=4.14% failures=0
+[classical_mid_loss1_c1_012] OK -- latency_avg=10.54ms cpu=4.0% failures=0
+[classical_mid_loss1_c1_013] OK -- latency_avg=19.79ms cpu=3.86% failures=0
+[classical_mid_loss1_c1_014] OK -- latency_avg=17.72ms cpu=4.43% failures=0
+[classical_mid_loss1_c1_015] OK -- latency_avg=17.12ms cpu=3.66% failures=0
+[classical_mid_loss1_c1_016] OK -- latency_avg=13.9ms cpu=2.91% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[classical_mid_loss1_c1_017] OK -- latency_avg=14.28ms cpu=4.14% failures=0
+[classical_mid_loss1_c1_018] OK -- latency_avg=17.84ms cpu=4.97% failures=0
+[classical_mid_loss1_c1_019] OK -- latency_avg=12.58ms cpu=3.49% failures=0
+[classical_mid_loss1_c1_020] OK -- latency_avg=13.03ms cpu=4.29% failures=0
+[classical_mid_loss1_c1_021] OK -- latency_avg=13.99ms cpu=3.23% failures=0
+[classical_mid_loss1_c1_022] OK -- latency_avg=13.18ms cpu=3.83% failures=0
+[classical_mid_loss1_c1_023] OK -- latency_avg=18.09ms cpu=3.49% failures=0
+[classical_mid_loss1_c1_024] OK -- latency_avg=20.95ms cpu=3.51% failures=0
+[classical_mid_loss1_c1_025] OK -- latency_avg=11.97ms cpu=3.49% failures=0
+[classical_mid_loss1_c1_026] OK -- latency_avg=20.45ms cpu=3.63% failures=0
+[classical_mid_loss1_c1_027] OK -- latency_avg=15.49ms cpu=3.66% failures=0
+[classical_mid_loss1_c1_028] OK -- latency_avg=16.18ms cpu=3.74% failures=0
+[classical_mid_loss1_c1_029] OK -- latency_avg=15.53ms cpu=3.23% failures=0
+
+[30/96] suite=classical tier=mid network=loss1 concurrency=10 -> end_to_end
+[classical_mid_loss1_c10_000] OK -- latency_avg=10.85ms cpu=28.63% failures=0
+[classical_mid_loss1_c10_001] OK -- latency_avg=11.39ms cpu=30.66% failures=0
+[classical_mid_loss1_c10_002] OK -- latency_avg=10.67ms cpu=28.29% failures=0
+[classical_mid_loss1_c10_003] OK -- latency_avg=10.77ms cpu=24.46% failures=0
+[classical_mid_loss1_c10_004] OK -- latency_avg=11.5ms cpu=28.37% failures=0
+[classical_mid_loss1_c10_005] OK -- latency_avg=11.21ms cpu=28.43% failures=0
+[classical_mid_loss1_c10_006] OK -- latency_avg=11.64ms cpu=28.17% failures=0
+[classical_mid_loss1_c10_007] OK -- latency_avg=10.98ms cpu=27.83% failures=0
+[classical_mid_loss1_c10_008] OK -- latency_avg=12.69ms cpu=27.77% failures=0
+[classical_mid_loss1_c10_009] OK -- latency_avg=11.45ms cpu=27.11% failures=0
+[classical_mid_loss1_c10_010] OK -- latency_avg=13.32ms cpu=26.49% failures=0
+[classical_mid_loss1_c10_011] OK -- latency_avg=13.04ms cpu=26.69% failures=0
+[classical_mid_loss1_c10_012] OK -- latency_avg=12.24ms cpu=26.6% failures=0
+[classical_mid_loss1_c10_013] OK -- latency_avg=11.22ms cpu=25.54% failures=0
+[classical_mid_loss1_c10_014] OK -- latency_avg=12.07ms cpu=27.17% failures=0
+[classical_mid_loss1_c10_015] OK -- latency_avg=11.84ms cpu=29.34% failures=0
+[classical_mid_loss1_c10_016] OK -- latency_avg=10.7ms cpu=26.63% failures=0
+[classical_mid_loss1_c10_017] OK -- latency_avg=12.43ms cpu=27.31% failures=0
+[classical_mid_loss1_c10_018] OK -- latency_avg=10.92ms cpu=26.11% failures=0
+[classical_mid_loss1_c10_019] OK -- latency_avg=11.87ms cpu=28.17% failures=0
+[classical_mid_loss1_c10_020] OK -- latency_avg=11.7ms cpu=29.26% failures=0
+[classical_mid_loss1_c10_021] OK -- latency_avg=12.75ms cpu=27.69% failures=0
+[classical_mid_loss1_c10_022] OK -- latency_avg=11.53ms cpu=27.09% failures=0
+[classical_mid_loss1_c10_023] OK -- latency_avg=11.99ms cpu=29.0% failures=0
+[classical_mid_loss1_c10_024] OK -- latency_avg=10.72ms cpu=25.63% failures=0
+[classical_mid_loss1_c10_025] OK -- latency_avg=11.2ms cpu=24.97% failures=0
+[classical_mid_loss1_c10_026] OK -- latency_avg=10.5ms cpu=25.77% failures=0
+[classical_mid_loss1_c10_027] OK -- latency_avg=11.19ms cpu=27.31% failures=0
+[classical_mid_loss1_c10_028] OK -- latency_avg=11.53ms cpu=27.4% failures=0
+[classical_mid_loss1_c10_029] OK -- latency_avg=11.72ms cpu=27.91% failures=0
+
+[31/96] suite=classical tier=mid network=loss1 concurrency=50 -> end_to_end
+[classical_mid_loss1_c50_000] OK -- latency_avg=9.16ms cpu=85.94% failures=0
+[classical_mid_loss1_c50_001] OK -- latency_avg=9.07ms cpu=85.74% failures=0
+[classical_mid_loss1_c50_002] OK -- latency_avg=9.33ms cpu=85.74% failures=0
+[classical_mid_loss1_c50_003] OK -- latency_avg=9.37ms cpu=85.97% failures=0
+[classical_mid_loss1_c50_004] OK -- latency_avg=9.1ms cpu=85.77% failures=0
+[classical_mid_loss1_c50_005] OK -- latency_avg=9.5ms cpu=85.8% failures=0
+[classical_mid_loss1_c50_006] OK -- latency_avg=9.21ms cpu=85.69% failures=0
+[classical_mid_loss1_c50_007] OK -- latency_avg=8.9ms cpu=85.66% failures=0
+[classical_mid_loss1_c50_008] OK -- latency_avg=9.01ms cpu=85.97% failures=0
+[classical_mid_loss1_c50_009] OK -- latency_avg=9.11ms cpu=85.94% failures=0
+[classical_mid_loss1_c50_010] OK -- latency_avg=9.31ms cpu=85.66% failures=0
+[classical_mid_loss1_c50_011] OK -- latency_avg=8.91ms cpu=85.69% failures=0
+[classical_mid_loss1_c50_012] OK -- latency_avg=8.58ms cpu=85.77% failures=0
+[classical_mid_loss1_c50_013] OK -- latency_avg=8.48ms cpu=85.63% failures=0
+[classical_mid_loss1_c50_014] OK -- latency_avg=8.96ms cpu=85.97% failures=0
+[classical_mid_loss1_c50_015] OK -- latency_avg=8.69ms cpu=85.83% failures=0
+[classical_mid_loss1_c50_016] OK -- latency_avg=8.61ms cpu=85.66% failures=0
+[classical_mid_loss1_c50_017] OK -- latency_avg=8.74ms cpu=85.6% failures=0
+[classical_mid_loss1_c50_018] OK -- latency_avg=9.24ms cpu=85.91% failures=0
+[classical_mid_loss1_c50_019] OK -- latency_avg=8.55ms cpu=85.77% failures=0
+[classical_mid_loss1_c50_020] OK -- latency_avg=9.46ms cpu=85.63% failures=0
+[classical_mid_loss1_c50_021] OK -- latency_avg=9.48ms cpu=85.74% failures=0
+[classical_mid_loss1_c50_022] OK -- latency_avg=9.82ms cpu=85.77% failures=0
+[classical_mid_loss1_c50_023] OK -- latency_avg=9.33ms cpu=85.89% failures=0
+[classical_mid_loss1_c50_024] OK -- latency_avg=9.25ms cpu=85.97% failures=0
+[classical_mid_loss1_c50_025] OK -- latency_avg=8.94ms cpu=85.83% failures=0
+[classical_mid_loss1_c50_026] OK -- latency_avg=9.09ms cpu=85.83% failures=0
+[classical_mid_loss1_c50_027] OK -- latency_avg=9.01ms cpu=85.8% failures=0
+[classical_mid_loss1_c50_028] OK -- latency_avg=9.09ms cpu=85.71% failures=0
+[classical_mid_loss1_c50_029] OK -- latency_avg=9.07ms cpu=85.94% failures=0
+
+[32/96] suite=classical tier=mid network=loss1 concurrency=100 -> end_to_end
+[classical_mid_loss1_c100_000] OK -- latency_avg=6.55ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_001] OK -- latency_avg=6.22ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_002] OK -- latency_avg=6.17ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_003] OK -- latency_avg=6.16ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_004] OK -- latency_avg=6.41ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_005] OK -- latency_avg=6.41ms cpu=85.8% failures=0
+[classical_mid_loss1_c100_006] OK -- latency_avg=6.28ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_007] OK -- latency_avg=5.98ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_008] OK -- latency_avg=6.08ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_009] OK -- latency_avg=6.32ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_010] OK -- latency_avg=6.53ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_011] OK -- latency_avg=6.72ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_012] OK -- latency_avg=5.91ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_013] OK -- latency_avg=6.4ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_014] OK -- latency_avg=6.38ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_015] OK -- latency_avg=6.42ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_016] OK -- latency_avg=6.19ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_017] OK -- latency_avg=6.19ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_018] OK -- latency_avg=6.01ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_019] OK -- latency_avg=6.15ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_020] OK -- latency_avg=6.82ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_021] OK -- latency_avg=6.05ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_022] OK -- latency_avg=6.17ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_023] OK -- latency_avg=5.83ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_024] OK -- latency_avg=6.1ms cpu=85.8% failures=0
+[classical_mid_loss1_c100_025] OK -- latency_avg=6.41ms cpu=85.89% failures=0
+[classical_mid_loss1_c100_026] OK -- latency_avg=6.1ms cpu=85.86% failures=0
+[classical_mid_loss1_c100_027] OK -- latency_avg=5.97ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_028] OK -- latency_avg=6.07ms cpu=85.83% failures=0
+[classical_mid_loss1_c100_029] OK -- latency_avg=6.65ms cpu=85.89% failures=0
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[33/96] suite=classical tier=high network=baseline concurrency=1 -> pure_handshake
+[GAGAL] batch 33 (classical/high/baseline/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[34/96] suite=classical tier=high network=baseline concurrency=10 -> end_to_end
+[GAGAL] batch 34 (classical/high/baseline/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[35/96] suite=classical tier=high network=baseline concurrency=50 -> end_to_end
+[GAGAL] batch 35 (classical/high/baseline/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[36/96] suite=classical tier=high network=baseline concurrency=100 -> end_to_end
+[GAGAL] batch 36 (classical/high/baseline/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[37/96] suite=classical tier=high network=delay50 concurrency=1 -> end_to_end
+[GAGAL] batch 37 (classical/high/delay50/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[38/96] suite=classical tier=high network=delay50 concurrency=10 -> end_to_end
+[GAGAL] batch 38 (classical/high/delay50/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[39/96] suite=classical tier=high network=delay50 concurrency=50 -> end_to_end
+[GAGAL] batch 39 (classical/high/delay50/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[40/96] suite=classical tier=high network=delay50 concurrency=100 -> end_to_end
+[GAGAL] batch 40 (classical/high/delay50/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[41/96] suite=classical tier=high network=delay100 concurrency=1 -> end_to_end
+[GAGAL] batch 41 (classical/high/delay100/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[42/96] suite=classical tier=high network=delay100 concurrency=10 -> end_to_end
+[GAGAL] batch 42 (classical/high/delay100/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[43/96] suite=classical tier=high network=delay100 concurrency=50 -> end_to_end
+[GAGAL] batch 43 (classical/high/delay100/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[44/96] suite=classical tier=high network=delay100 concurrency=100 -> end_to_end
+[GAGAL] batch 44 (classical/high/delay100/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[45/96] suite=classical tier=high network=loss1 concurrency=1 -> end_to_end
+[GAGAL] batch 45 (classical/high/loss1/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[46/96] suite=classical tier=high network=loss1 concurrency=10 -> end_to_end
+[GAGAL] batch 46 (classical/high/loss1/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[47/96] suite=classical tier=high network=loss1 concurrency=50 -> end_to_end
+[GAGAL] batch 47 (classical/high/loss1/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[48/96] suite=classical tier=high network=loss1 concurrency=100 -> end_to_end
+[GAGAL] batch 48 (classical/high/loss1/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519) -- batch dilewati, TIDAK dijalankan.
+
+[49/96] suite=hybrid tier=low network=baseline concurrency=1 -> pure_handshake
+[GAGAL] batch 49 (hybrid/low/baseline/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[50/96] suite=hybrid tier=low network=baseline concurrency=10 -> end_to_end
+[GAGAL] batch 50 (hybrid/low/baseline/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[51/96] suite=hybrid tier=low network=baseline concurrency=50 -> end_to_end
+[GAGAL] batch 51 (hybrid/low/baseline/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[52/96] suite=hybrid tier=low network=baseline concurrency=100 -> end_to_end
+[GAGAL] batch 52 (hybrid/low/baseline/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[53/96] suite=hybrid tier=low network=delay50 concurrency=1 -> end_to_end
+[GAGAL] batch 53 (hybrid/low/delay50/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[54/96] suite=hybrid tier=low network=delay50 concurrency=10 -> end_to_end
+[GAGAL] batch 54 (hybrid/low/delay50/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[55/96] suite=hybrid tier=low network=delay50 concurrency=50 -> end_to_end
+[GAGAL] batch 55 (hybrid/low/delay50/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[56/96] suite=hybrid tier=low network=delay50 concurrency=100 -> end_to_end
+[GAGAL] batch 56 (hybrid/low/delay50/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[57/96] suite=hybrid tier=low network=delay100 concurrency=1 -> end_to_end
+[GAGAL] batch 57 (hybrid/low/delay100/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[58/96] suite=hybrid tier=low network=delay100 concurrency=10 -> end_to_end
+[GAGAL] batch 58 (hybrid/low/delay100/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[59/96] suite=hybrid tier=low network=delay100 concurrency=50 -> end_to_end
+[GAGAL] batch 59 (hybrid/low/delay100/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[60/96] suite=hybrid tier=low network=delay100 concurrency=100 -> end_to_end
+[GAGAL] batch 60 (hybrid/low/delay100/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[61/96] suite=hybrid tier=low network=loss1 concurrency=1 -> end_to_end
+[GAGAL] batch 61 (hybrid/low/loss1/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[62/96] suite=hybrid tier=low network=loss1 concurrency=10 -> end_to_end
+[GAGAL] batch 62 (hybrid/low/loss1/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[63/96] suite=hybrid tier=low network=loss1 concurrency=50 -> end_to_end
+[GAGAL] batch 63 (hybrid/low/loss1/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[64/96] suite=hybrid tier=low network=loss1 concurrency=100 -> end_to_endNetem cleared di ens18.
+[1/30] 9.67 ms  ok=True  grup=X25519MLKEM768
+[2/30] 9.99 ms  ok=True  grup=X25519MLKEM768
+[3/30] 9.75 ms  ok=True  grup=X25519MLKEM768
+[4/30] 9.63 ms  ok=True  grup=X25519MLKEM768
+[5/30] 9.68 ms  ok=True  grup=X25519MLKEM768
+[6/30] 9.70 ms  ok=True  grup=X25519MLKEM768
+[7/30] 9.64 ms  ok=True  grup=X25519MLKEM768
+[8/30] 9.69 ms  ok=True  grup=X25519MLKEM768
+[9/30] 9.99 ms  ok=True  grup=X25519MLKEM768
+[10/30] 9.99 ms  ok=True  grup=X25519MLKEM768
+[11/30] 10.02 ms  ok=True  grup=X25519MLKEM768
+[12/30] 9.76 ms  ok=True  grup=X25519MLKEM768
+[13/30] 10.01 ms  ok=True  grup=X25519MLKEM768
+[14/30] 9.89 ms  ok=True  grup=X25519MLKEM768
+[15/30] 9.92 ms  ok=True  grup=X25519MLKEM768
+[16/30] 10.06 ms  ok=True  grup=X25519MLKEM768
+[17/30] 10.02 ms  ok=True  grup=X25519MLKEM768
+[18/30] 9.79 ms  ok=True  grup=X25519MLKEM768
+[19/30] 9.84 ms  ok=True  grup=X25519MLKEM768
+[20/30] 9.90 ms  ok=True  grup=X25519MLKEM768
+[21/30] 9.79 ms  ok=True  grup=X25519MLKEM768
+[22/30] 9.78 ms  ok=True  grup=X25519MLKEM768
+[23/30] 9.71 ms  ok=True  grup=X25519MLKEM768
+[24/30] 9.61 ms  ok=True  grup=X25519MLKEM768
+[25/30] 9.69 ms  ok=True  grup=X25519MLKEM768
+[26/30] 9.61 ms  ok=True  grup=X25519MLKEM768
+[27/30] 9.81 ms  ok=True  grup=X25519MLKEM768
+[28/30] 9.51 ms  ok=True  grup=X25519MLKEM768
+[29/30] 9.79 ms  ok=True  grup=X25519MLKEM768
+[30/30] 9.61 ms  ok=True  grup=X25519MLKEM768
+
+Selesai: 30/30 sukses -> /home/benchmark/pqc-tls-feasibility/data/raw/all_runs.csv
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[GAGAL] batch 64 (hybrid/low/loss1/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[65/96] suite=hybrid tier=mid network=baseline concurrency=1 -> pure_handshake
+
+[66/96] suite=hybrid tier=mid network=baseline concurrency=10 -> end_to_end
+[hybrid_mid_baseline_c10_000] OK -- latency_avg=1.97ms cpu=79.77% failures=0
+[hybrid_mid_baseline_c10_001] OK -- latency_avg=1.99ms cpu=79.49% failures=0
+[hybrid_mid_baseline_c10_002] OK -- latency_avg=1.99ms cpu=79.69% failures=0
+[hybrid_mid_baseline_c10_003] OK -- latency_avg=1.98ms cpu=80.0% failures=0
+[hybrid_mid_baseline_c10_004] OK -- latency_avg=2.01ms cpu=80.23% failures=0
+[hybrid_mid_baseline_c10_005] OK -- latency_avg=1.99ms cpu=79.69% failures=0
+[hybrid_mid_baseline_c10_006] OK -- latency_avg=2.0ms cpu=80.14% failures=0
+[hybrid_mid_baseline_c10_007] OK -- latency_avg=1.99ms cpu=80.11% failures=0
+[hybrid_mid_baseline_c10_008] OK -- latency_avg=2.0ms cpu=80.06% failures=0
+[hybrid_mid_baseline_c10_009] OK -- latency_avg=1.99ms cpu=79.66% failures=0
+[hybrid_mid_baseline_c10_010] OK -- latency_avg=1.98ms cpu=80.0% failures=0
+[hybrid_mid_baseline_c10_011] OK -- latency_avg=2.02ms cpu=80.0% failures=0
+[hybrid_mid_baseline_c10_012] OK -- latency_avg=2.02ms cpu=79.0% failures=0
+[hybrid_mid_baseline_c10_013] OK -- latency_avg=2.0ms cpu=80.17% failures=0
+[hybrid_mid_baseline_c10_014] OK -- latency_avg=1.99ms cpu=80.29% failures=0
+[hybrid_mid_baseline_c10_015] OK -- latency_avg=2.04ms cpu=79.26% failures=0
+[hybrid_mid_baseline_c10_016] OK -- latency_avg=1.99ms cpu=79.74% failures=0
+[hybrid_mid_baseline_c10_017] OK -- latency_avg=2.0ms cpu=80.09% failures=0
+[hybrid_mid_baseline_c10_018] OK -- latency_avg=2.01ms cpu=79.06% failures=0
+[hybrid_mid_baseline_c10_019] OK -- latency_avg=2.01ms cpu=80.06% failures=0
+[hybrid_mid_baseline_c10_020] OK -- latency_avg=2.01ms cpu=80.26% failures=0
+[hybrid_mid_baseline_c10_021] OK -- latency_avg=2.0ms cpu=79.63% failures=0
+[hybrid_mid_baseline_c10_022] OK -- latency_avg=1.98ms cpu=80.43% failures=0
+[hybrid_mid_baseline_c10_023] OK -- latency_avg=2.0ms cpu=79.63% failures=0
+[hybrid_mid_baseline_c10_024] OK -- latency_avg=2.0ms cpu=80.37% failures=0
+[hybrid_mid_baseline_c10_025] OK -- latency_avg=1.98ms cpu=80.49% failures=0
+[hybrid_mid_baseline_c10_026] OK -- latency_avg=2.0ms cpu=79.74% failures=0
+[hybrid_mid_baseline_c10_027] OK -- latency_avg=2.0ms cpu=80.06% failures=0
+[hybrid_mid_baseline_c10_028] OK -- latency_avg=1.99ms cpu=80.37% failures=0
+[hybrid_mid_baseline_c10_029] OK -- latency_avg=2.03ms cpu=79.03% failures=0
+
+[67/96] suite=hybrid tier=mid network=baseline concurrency=50 -> end_to_end
+[hybrid_mid_baseline_c50_000] OK -- latency_avg=2.17ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_001] OK -- latency_avg=2.2ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_002] OK -- latency_avg=2.19ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_003] OK -- latency_avg=2.14ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_004] OK -- latency_avg=2.2ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c50_005] OK -- latency_avg=2.2ms cpu=85.77% failures=0
+[hybrid_mid_baseline_c50_006] OK -- latency_avg=2.18ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_007] OK -- latency_avg=2.2ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_008] OK -- latency_avg=2.19ms cpu=85.74% failures=0
+[hybrid_mid_baseline_c50_009] OK -- latency_avg=2.22ms cpu=85.77% failures=0
+[hybrid_mid_baseline_c50_010] OK -- latency_avg=2.17ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_011] OK -- latency_avg=2.17ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_012] OK -- latency_avg=2.2ms cpu=85.89% failures=0
+[hybrid_mid_baseline_c50_013] OK -- latency_avg=2.17ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_014] OK -- latency_avg=2.17ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_015] OK -- latency_avg=2.18ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_016] OK -- latency_avg=2.19ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_017] OK -- latency_avg=2.18ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_018] OK -- latency_avg=2.14ms cpu=86.0% failures=0
+[hybrid_mid_baseline_c50_019] OK -- latency_avg=2.17ms cpu=85.77% failures=0
+[hybrid_mid_baseline_c50_020] OK -- latency_avg=2.19ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_021] OK -- latency_avg=2.22ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c50_022] OK -- latency_avg=2.14ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_023] OK -- latency_avg=2.16ms cpu=85.77% failures=0
+[hybrid_mid_baseline_c50_024] OK -- latency_avg=2.19ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_025] OK -- latency_avg=2.19ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_026] OK -- latency_avg=2.2ms cpu=85.8% failures=0
+[hybrid_mid_baseline_c50_027] OK -- latency_avg=2.18ms cpu=85.97% failures=0
+[hybrid_mid_baseline_c50_028] OK -- latency_avg=2.17ms cpu=85.83% failures=0
+[hybrid_mid_baseline_c50_029] OK -- latency_avg=2.18ms cpu=85.74% failures=0
+
+[68/96] suite=hybrid tier=mid network=baseline concurrency=100 -> end_to_end
+[hybrid_mid_baseline_c100_000] OK -- latency_avg=2.31ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_001] OK -- latency_avg=2.28ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_002] OK -- latency_avg=2.32ms cpu=85.89% failures=0
+[hybrid_mid_baseline_c100_003] OK -- latency_avg=2.29ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_004] OK -- latency_avg=2.38ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_005] OK -- latency_avg=2.29ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_006] OK -- latency_avg=2.35ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_007] OK -- latency_avg=2.27ms cpu=85.89% failures=0
+[hybrid_mid_baseline_c100_008] OK -- latency_avg=2.33ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_009] OK -- latency_avg=2.37ms cpu=85.86% failures=0
+[hybrid_mid_baseline_c100_010] OK -- latency_avg=2.3ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_011] OK -- latency_avg=2.32ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_012] OK -- latency_avg=2.33ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_013] OK -- latency_avg=2.29ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_014] OK -- latency_avg=2.33ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_015] OK -- latency_avg=2.31ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_016] OK -- latency_avg=2.36ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_017] OK -- latency_avg=2.32ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_018] OK -- latency_avg=2.3ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_019] OK -- latency_avg=2.32ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_020] OK -- latency_avg=2.33ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_021] OK -- latency_avg=2.35ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_022] OK -- latency_avg=2.33ms cpu=85.89% failures=0
+[hybrid_mid_baseline_c100_023] OK -- latency_avg=2.32ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_024] OK -- latency_avg=2.31ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_025] OK -- latency_avg=2.29ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_026] OK -- latency_avg=2.31ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_027] OK -- latency_avg=2.33ms cpu=85.91% failures=0
+[hybrid_mid_baseline_c100_028] OK -- latency_avg=2.37ms cpu=85.94% failures=0
+[hybrid_mid_baseline_c100_029] OK -- latency_avg=2.34ms cpu=85.91% failures=0
+
+[69/96] suite=hybrid tier=mid network=delay50 concurrency=1 -> end_to_end
+[hybrid_mid_delay50_c1_000] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_001] OK -- latency_avg=50.72ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_002] OK -- latency_avg=50.74ms cpu=0.43% failures=0
+[hybrid_mid_delay50_c1_003] OK -- latency_avg=50.73ms cpu=0.37% failures=0
+[hybrid_mid_delay50_c1_004] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_005] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_006] OK -- latency_avg=50.73ms cpu=0.54% failures=0
+[hybrid_mid_delay50_c1_007] OK -- latency_avg=50.71ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_008] OK -- latency_avg=50.7ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_009] OK -- latency_avg=50.74ms cpu=0.4% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[hybrid_mid_delay50_c1_010] OK -- latency_avg=50.74ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_011] OK -- latency_avg=50.74ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_012] OK -- latency_avg=50.73ms cpu=0.34% failures=0
+[hybrid_mid_delay50_c1_013] OK -- latency_avg=50.73ms cpu=0.37% failures=0
+[hybrid_mid_delay50_c1_014] OK -- latency_avg=50.74ms cpu=0.43% failures=0
+[hybrid_mid_delay50_c1_015] OK -- latency_avg=50.69ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_016] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_017] OK -- latency_avg=50.71ms cpu=0.43% failures=0
+[hybrid_mid_delay50_c1_018] OK -- latency_avg=50.7ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_019] OK -- latency_avg=50.74ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_020] OK -- latency_avg=50.74ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_021] OK -- latency_avg=50.69ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_022] OK -- latency_avg=50.72ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_023] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_024] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_025] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_026] OK -- latency_avg=50.74ms cpu=0.54% failures=0
+[hybrid_mid_delay50_c1_027] OK -- latency_avg=50.72ms cpu=0.37% failures=0
+[hybrid_mid_delay50_c1_028] OK -- latency_avg=50.73ms cpu=0.4% failures=0
+[hybrid_mid_delay50_c1_029] OK -- latency_avg=50.73ms cpu=0.43% failures=0
+
+[70/96] suite=hybrid tier=mid network=delay50 concurrency=10 -> end_to_end
+[hybrid_mid_delay50_c10_000] OK -- latency_avg=50.46ms cpu=3.26% failures=0
+[hybrid_mid_delay50_c10_001] OK -- latency_avg=50.57ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_002] OK -- latency_avg=50.6ms cpu=3.29% failures=0
+[hybrid_mid_delay50_c10_003] OK -- latency_avg=50.56ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_004] OK -- latency_avg=50.51ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_005] OK -- latency_avg=50.57ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_006] OK -- latency_avg=50.54ms cpu=3.29% failures=0
+[hybrid_mid_delay50_c10_007] OK -- latency_avg=50.49ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_008] OK -- latency_avg=50.51ms cpu=3.11% failures=0
+[hybrid_mid_delay50_c10_009] OK -- latency_avg=50.55ms cpu=3.2% failures=0
+[hybrid_mid_delay50_c10_010] OK -- latency_avg=50.55ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_011] OK -- latency_avg=50.49ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_012] OK -- latency_avg=50.52ms cpu=3.29% failures=0
+[hybrid_mid_delay50_c10_013] OK -- latency_avg=50.47ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_014] OK -- latency_avg=50.48ms cpu=3.11% failures=0
+[hybrid_mid_delay50_c10_015] OK -- latency_avg=50.54ms cpu=3.2% failures=0
+[hybrid_mid_delay50_c10_016] OK -- latency_avg=50.47ms cpu=3.11% failures=0
+[hybrid_mid_delay50_c10_017] OK -- latency_avg=50.57ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_018] OK -- latency_avg=50.6ms cpu=3.31% failures=0
+[hybrid_mid_delay50_c10_019] OK -- latency_avg=50.48ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_020] OK -- latency_avg=50.54ms cpu=3.29% failures=0
+[hybrid_mid_delay50_c10_021] OK -- latency_avg=50.56ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_022] OK -- latency_avg=50.47ms cpu=3.29% failures=0
+[hybrid_mid_delay50_c10_023] OK -- latency_avg=50.57ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_024] OK -- latency_avg=50.52ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_025] OK -- latency_avg=50.57ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_026] OK -- latency_avg=50.6ms cpu=3.17% failures=0
+[hybrid_mid_delay50_c10_027] OK -- latency_avg=50.47ms cpu=3.14% failures=0
+[hybrid_mid_delay50_c10_028] OK -- latency_avg=50.55ms cpu=3.31% failures=0
+[hybrid_mid_delay50_c10_029] OK -- latency_avg=50.61ms cpu=3.17% failures=0
+
+[71/96] suite=hybrid tier=mid network=delay50 concurrency=50 -> end_to_end
+[hybrid_mid_delay50_c50_000] OK -- latency_avg=50.38ms cpu=18.46% failures=0
+[hybrid_mid_delay50_c50_001] OK -- latency_avg=50.38ms cpu=18.2% failures=0
+[hybrid_mid_delay50_c50_002] OK -- latency_avg=50.37ms cpu=18.51% failures=0
+[hybrid_mid_delay50_c50_003] OK -- latency_avg=50.38ms cpu=18.23% failures=0
+[hybrid_mid_delay50_c50_004] OK -- latency_avg=50.34ms cpu=18.49% failures=0
+[hybrid_mid_delay50_c50_005] OK -- latency_avg=50.33ms cpu=18.0% failures=0
+[hybrid_mid_delay50_c50_006] OK -- latency_avg=50.4ms cpu=18.49% failures=0
+[hybrid_mid_delay50_c50_007] OK -- latency_avg=50.37ms cpu=18.17% failures=0
+[hybrid_mid_delay50_c50_008] OK -- latency_avg=50.38ms cpu=18.49% failures=0
+[hybrid_mid_delay50_c50_009] OK -- latency_avg=50.41ms cpu=18.31% failures=0
+[hybrid_mid_delay50_c50_010] OK -- latency_avg=50.4ms cpu=18.57% failures=0
+[hybrid_mid_delay50_c50_011] OK -- latency_avg=50.37ms cpu=18.23% failures=0
+[hybrid_mid_delay50_c50_012] OK -- latency_avg=50.43ms cpu=18.83% failures=0
+[hybrid_mid_delay50_c50_013] OK -- latency_avg=50.38ms cpu=18.11% failures=0
+[hybrid_mid_delay50_c50_014] OK -- latency_avg=50.39ms cpu=18.37% failures=0
+[hybrid_mid_delay50_c50_015] OK -- latency_avg=50.38ms cpu=18.2% failures=0
+[hybrid_mid_delay50_c50_016] OK -- latency_avg=50.39ms cpu=18.6% failures=0
+[hybrid_mid_delay50_c50_017] OK -- latency_avg=50.39ms cpu=18.2% failures=0
+[hybrid_mid_delay50_c50_018] OK -- latency_avg=50.38ms cpu=18.43% failures=0
+[hybrid_mid_delay50_c50_019] OK -- latency_avg=50.37ms cpu=18.17% failures=0
+[hybrid_mid_delay50_c50_020] OK -- latency_avg=50.41ms cpu=18.49% failures=0
+[hybrid_mid_delay50_c50_021] OK -- latency_avg=50.43ms cpu=18.03% failures=0
+[hybrid_mid_delay50_c50_022] OK -- latency_avg=50.39ms cpu=18.6% failures=0
+[hybrid_mid_delay50_c50_023] OK -- latency_avg=50.33ms cpu=18.14% failures=0
+[hybrid_mid_delay50_c50_024] OK -- latency_avg=50.35ms cpu=18.46% failures=0
+[hybrid_mid_delay50_c50_025] OK -- latency_avg=50.34ms cpu=18.03% failures=0
+[hybrid_mid_delay50_c50_026] OK -- latency_avg=50.4ms cpu=18.57% failures=0
+[hybrid_mid_delay50_c50_027] OK -- latency_avg=50.39ms cpu=18.09% failures=0
+[hybrid_mid_delay50_c50_028] OK -- latency_avg=50.38ms cpu=18.6% failures=0
+[hybrid_mid_delay50_c50_029] OK -- latency_avg=50.35ms cpu=18.0% failures=0
+
+[72/96] suite=hybrid tier=mid network=delay50 concurrency=100 -> end_to_end
+[hybrid_mid_delay50_c100_000] OK -- latency_avg=50.64ms cpu=38.06% failures=0
+[hybrid_mid_delay50_c100_001] OK -- latency_avg=50.67ms cpu=37.51% failures=0
+[hybrid_mid_delay50_c100_002] OK -- latency_avg=50.73ms cpu=38.46% failures=0
+[hybrid_mid_delay50_c100_003] OK -- latency_avg=50.84ms cpu=37.69% failures=0
+[hybrid_mid_delay50_c100_004] OK -- latency_avg=50.86ms cpu=38.51% failures=0
+[hybrid_mid_delay50_c100_005] OK -- latency_avg=50.78ms cpu=38.06% failures=0
+[hybrid_mid_delay50_c100_006] OK -- latency_avg=50.65ms cpu=38.83% failures=0
+[hybrid_mid_delay50_c100_007] OK -- latency_avg=50.8ms cpu=37.94% failures=0
+[hybrid_mid_delay50_c100_008] OK -- latency_avg=50.79ms cpu=38.77% failures=0
+[hybrid_mid_delay50_c100_009] OK -- latency_avg=50.72ms cpu=38.26% failures=0
+[hybrid_mid_delay50_c100_010] OK -- latency_avg=50.79ms cpu=38.83% failures=0
+[hybrid_mid_delay50_c100_011] OK -- latency_avg=50.77ms cpu=38.2% failures=0
+[hybrid_mid_delay50_c100_012] OK -- latency_avg=50.69ms cpu=39.09% failures=0
+[hybrid_mid_delay50_c100_013] OK -- latency_avg=50.78ms cpu=38.26% failures=0
+[hybrid_mid_delay50_c100_014] OK -- latency_avg=50.82ms cpu=38.74% failures=0
+[hybrid_mid_delay50_c100_015] OK -- latency_avg=50.8ms cpu=38.11% failures=0
+[hybrid_mid_delay50_c100_016] OK -- latency_avg=50.81ms cpu=39.03% failures=0
+[hybrid_mid_delay50_c100_017] OK -- latency_avg=50.84ms cpu=38.2% failures=0
+[hybrid_mid_delay50_c100_018] OK -- latency_avg=50.81ms cpu=38.91% failures=0
+[hybrid_mid_delay50_c100_019] OK -- latency_avg=50.77ms cpu=38.26% failures=0
+[hybrid_mid_delay50_c100_020] OK -- latency_avg=50.89ms cpu=38.86% failures=0
+[hybrid_mid_delay50_c100_021] OK -- latency_avg=50.66ms cpu=38.26% failures=0
+[hybrid_mid_delay50_c100_022] OK -- latency_avg=50.79ms cpu=38.97% failures=0
+[hybrid_mid_delay50_c100_023] OK -- latency_avg=50.69ms cpu=38.26% failures=0
+[hybrid_mid_delay50_c100_024] OK -- latency_avg=50.81ms cpu=38.77% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[hybrid_mid_delay50_c100_025] OK -- latency_avg=50.84ms cpu=38.31% failures=0
+[hybrid_mid_delay50_c100_026] OK -- latency_avg=50.77ms cpu=39.06% failures=0
+[hybrid_mid_delay50_c100_027] OK -- latency_avg=50.79ms cpu=38.23% failures=0
+[hybrid_mid_delay50_c100_028] OK -- latency_avg=50.78ms cpu=39.0% failures=0
+[hybrid_mid_delay50_c100_029] OK -- latency_avg=50.78ms cpu=38.2% failures=0
+
+[73/96] suite=hybrid tier=mid network=delay100 concurrency=1 -> end_to_end
+[hybrid_mid_delay100_c1_000] OK -- latency_avg=100.74ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_001] OK -- latency_avg=100.7ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_002] OK -- latency_avg=100.7ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_003] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_004] OK -- latency_avg=100.73ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_005] OK -- latency_avg=100.73ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_006] OK -- latency_avg=100.74ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_007] OK -- latency_avg=100.71ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_008] OK -- latency_avg=100.7ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_009] OK -- latency_avg=100.72ms cpu=0.34% failures=0
+[hybrid_mid_delay100_c1_010] OK -- latency_avg=100.73ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_011] OK -- latency_avg=100.76ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_012] OK -- latency_avg=100.74ms cpu=0.17% failures=0
+[hybrid_mid_delay100_c1_013] OK -- latency_avg=100.74ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_014] OK -- latency_avg=100.73ms cpu=0.17% failures=0
+[hybrid_mid_delay100_c1_015] OK -- latency_avg=100.72ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_016] OK -- latency_avg=100.74ms cpu=0.17% failures=0
+[hybrid_mid_delay100_c1_017] OK -- latency_avg=100.74ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_018] OK -- latency_avg=100.74ms cpu=0.17% failures=0
+[hybrid_mid_delay100_c1_019] OK -- latency_avg=100.73ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_020] OK -- latency_avg=100.75ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_021] OK -- latency_avg=100.75ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_022] OK -- latency_avg=100.75ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_023] OK -- latency_avg=100.74ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_024] OK -- latency_avg=100.73ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_025] OK -- latency_avg=100.72ms cpu=0.23% failures=0
+[hybrid_mid_delay100_c1_026] OK -- latency_avg=100.75ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_027] OK -- latency_avg=100.74ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_028] OK -- latency_avg=100.74ms cpu=0.2% failures=0
+[hybrid_mid_delay100_c1_029] OK -- latency_avg=100.75ms cpu=0.2% failures=0
+
+[74/96] suite=hybrid tier=mid network=delay100 concurrency=10 -> end_to_end
+[hybrid_mid_delay100_c10_000] OK -- latency_avg=100.51ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_001] OK -- latency_avg=100.54ms cpu=1.71% failures=0
+[hybrid_mid_delay100_c10_002] OK -- latency_avg=100.5ms cpu=1.6% failures=0
+[hybrid_mid_delay100_c10_003] OK -- latency_avg=100.48ms cpu=1.69% failures=0
+[hybrid_mid_delay100_c10_004] OK -- latency_avg=100.51ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_005] OK -- latency_avg=100.49ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_006] OK -- latency_avg=100.52ms cpu=1.6% failures=0
+[hybrid_mid_delay100_c10_007] OK -- latency_avg=100.48ms cpu=1.69% failures=0
+[hybrid_mid_delay100_c10_008] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_009] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_010] OK -- latency_avg=100.51ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_011] OK -- latency_avg=100.51ms cpu=1.54% failures=0
+[hybrid_mid_delay100_c10_012] OK -- latency_avg=100.52ms cpu=1.54% failures=0
+[hybrid_mid_delay100_c10_013] OK -- latency_avg=100.45ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_014] OK -- latency_avg=100.46ms cpu=1.54% failures=0
+[hybrid_mid_delay100_c10_015] OK -- latency_avg=100.49ms cpu=1.6% failures=0
+[hybrid_mid_delay100_c10_016] OK -- latency_avg=100.51ms cpu=1.54% failures=0
+[hybrid_mid_delay100_c10_017] OK -- latency_avg=100.54ms cpu=1.63% failures=0
+[hybrid_mid_delay100_c10_018] OK -- latency_avg=100.49ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_019] OK -- latency_avg=100.5ms cpu=1.71% failures=0
+[hybrid_mid_delay100_c10_020] OK -- latency_avg=100.47ms cpu=1.54% failures=0
+[hybrid_mid_delay100_c10_021] OK -- latency_avg=100.51ms cpu=1.6% failures=0
+[hybrid_mid_delay100_c10_022] OK -- latency_avg=100.53ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_023] OK -- latency_avg=100.51ms cpu=1.69% failures=0
+[hybrid_mid_delay100_c10_024] OK -- latency_avg=100.48ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_025] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_026] OK -- latency_avg=100.51ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_027] OK -- latency_avg=100.48ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_028] OK -- latency_avg=100.52ms cpu=1.57% failures=0
+[hybrid_mid_delay100_c10_029] OK -- latency_avg=100.52ms cpu=1.69% failures=0
+
+[75/96] suite=hybrid tier=mid network=delay100 concurrency=50 -> end_to_end
+[hybrid_mid_delay100_c50_000] OK -- latency_avg=100.35ms cpu=9.09% failures=0
+[hybrid_mid_delay100_c50_001] OK -- latency_avg=100.35ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_002] OK -- latency_avg=100.35ms cpu=9.0% failures=0
+[hybrid_mid_delay100_c50_003] OK -- latency_avg=100.48ms cpu=9.54% failures=0
+[hybrid_mid_delay100_c50_004] OK -- latency_avg=100.34ms cpu=9.0% failures=0
+[hybrid_mid_delay100_c50_005] OK -- latency_avg=100.41ms cpu=9.49% failures=0
+[hybrid_mid_delay100_c50_006] OK -- latency_avg=100.34ms cpu=9.14% failures=0
+[hybrid_mid_delay100_c50_007] OK -- latency_avg=100.35ms cpu=9.46% failures=0
+[hybrid_mid_delay100_c50_008] OK -- latency_avg=100.36ms cpu=9.14% failures=0
+[hybrid_mid_delay100_c50_009] OK -- latency_avg=100.35ms cpu=9.57% failures=0
+[hybrid_mid_delay100_c50_010] OK -- latency_avg=100.36ms cpu=9.17% failures=0
+[hybrid_mid_delay100_c50_011] OK -- latency_avg=100.35ms cpu=9.4% failures=0
+[hybrid_mid_delay100_c50_012] OK -- latency_avg=100.36ms cpu=9.14% failures=0
+[hybrid_mid_delay100_c50_013] OK -- latency_avg=100.34ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_014] OK -- latency_avg=100.35ms cpu=9.14% failures=0
+[hybrid_mid_delay100_c50_015] OK -- latency_avg=100.35ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_016] OK -- latency_avg=100.35ms cpu=9.17% failures=0
+[hybrid_mid_delay100_c50_017] OK -- latency_avg=100.34ms cpu=9.4% failures=0
+[hybrid_mid_delay100_c50_018] OK -- latency_avg=100.35ms cpu=9.11% failures=0
+[hybrid_mid_delay100_c50_019] OK -- latency_avg=100.35ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_020] OK -- latency_avg=100.35ms cpu=9.23% failures=0
+[hybrid_mid_delay100_c50_021] OK -- latency_avg=100.35ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_022] OK -- latency_avg=100.34ms cpu=9.09% failures=0
+[hybrid_mid_delay100_c50_023] OK -- latency_avg=100.41ms cpu=9.43% failures=0
+[hybrid_mid_delay100_c50_024] OK -- latency_avg=100.35ms cpu=9.14% failures=0
+[hybrid_mid_delay100_c50_025] OK -- latency_avg=100.35ms cpu=9.4% failures=0
+[hybrid_mid_delay100_c50_026] OK -- latency_avg=100.34ms cpu=9.09% failures=0
+[hybrid_mid_delay100_c50_027] OK -- latency_avg=100.34ms cpu=9.4% failures=0
+[hybrid_mid_delay100_c50_028] OK -- latency_avg=100.35ms cpu=8.97% failures=0
+[hybrid_mid_delay100_c50_029] OK -- latency_avg=100.36ms cpu=9.49% failures=0
+
+[76/96] suite=hybrid tier=mid network=delay100 concurrency=100 -> end_to_end
+[hybrid_mid_delay100_c100_000] OK -- latency_avg=100.35ms cpu=19.06% failures=0
+[hybrid_mid_delay100_c100_001] OK -- latency_avg=100.33ms cpu=19.49% failures=0
+[hybrid_mid_delay100_c100_002] OK -- latency_avg=100.35ms cpu=19.2% failures=0
+[hybrid_mid_delay100_c100_003] OK -- latency_avg=100.33ms cpu=19.63% failures=0
+[hybrid_mid_delay100_c100_004] OK -- latency_avg=100.33ms cpu=19.11% failures=0
+[hybrid_mid_delay100_c100_005] OK -- latency_avg=100.32ms cpu=19.51% failures=0
+[hybrid_mid_delay100_c100_006] OK -- latency_avg=100.35ms cpu=19.26% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[hybrid_mid_delay100_c100_007] OK -- latency_avg=100.33ms cpu=19.51% failures=0
+[hybrid_mid_delay100_c100_008] OK -- latency_avg=100.33ms cpu=19.29% failures=0
+[hybrid_mid_delay100_c100_009] OK -- latency_avg=100.33ms cpu=19.4% failures=0
+[hybrid_mid_delay100_c100_010] OK -- latency_avg=100.33ms cpu=19.46% failures=0
+[hybrid_mid_delay100_c100_011] OK -- latency_avg=100.34ms cpu=19.69% failures=0
+[hybrid_mid_delay100_c100_012] OK -- latency_avg=100.33ms cpu=19.2% failures=0
+[hybrid_mid_delay100_c100_013] OK -- latency_avg=100.33ms cpu=19.57% failures=0
+[hybrid_mid_delay100_c100_014] OK -- latency_avg=100.33ms cpu=19.34% failures=0
+[hybrid_mid_delay100_c100_015] OK -- latency_avg=100.34ms cpu=19.51% failures=0
+[hybrid_mid_delay100_c100_016] OK -- latency_avg=100.33ms cpu=19.37% failures=0
+[hybrid_mid_delay100_c100_017] OK -- latency_avg=100.32ms cpu=19.49% failures=0
+[hybrid_mid_delay100_c100_018] OK -- latency_avg=100.33ms cpu=19.23% failures=0
+[hybrid_mid_delay100_c100_019] OK -- latency_avg=100.33ms cpu=19.63% failures=0
+[hybrid_mid_delay100_c100_020] OK -- latency_avg=100.34ms cpu=19.26% failures=0
+[hybrid_mid_delay100_c100_021] OK -- latency_avg=100.33ms cpu=19.49% failures=0
+[hybrid_mid_delay100_c100_022] OK -- latency_avg=100.33ms cpu=19.14% failures=0
+[hybrid_mid_delay100_c100_023] OK -- latency_avg=100.33ms cpu=19.49% failures=0
+[hybrid_mid_delay100_c100_024] OK -- latency_avg=100.33ms cpu=19.2% failures=0
+[hybrid_mid_delay100_c100_025] OK -- latency_avg=100.34ms cpu=19.49% failures=0
+[hybrid_mid_delay100_c100_026] OK -- latency_avg=100.33ms cpu=19.23% failures=0
+[hybrid_mid_delay100_c100_027] OK -- latency_avg=100.34ms cpu=19.57% failures=0
+[hybrid_mid_delay100_c100_028] OK -- latency_avg=100.32ms cpu=19.23% failures=0
+[hybrid_mid_delay100_c100_029] OK -- latency_avg=100.35ms cpu=19.66% failures=0
+
+[77/96] suite=hybrid tier=mid network=loss1 concurrency=1 -> end_to_end
+[hybrid_mid_loss1_c1_000] OK -- latency_avg=14.18ms cpu=4.14% failures=0
+[hybrid_mid_loss1_c1_001] OK -- latency_avg=19.63ms cpu=3.49% failures=0
+[hybrid_mid_loss1_c1_002] OK -- latency_avg=7.56ms cpu=3.06% failures=0
+[hybrid_mid_loss1_c1_003] OK -- latency_avg=13.18ms cpu=3.77% failures=0
+[hybrid_mid_loss1_c1_004] OK -- latency_avg=14.87ms cpu=4.03% failures=0
+[hybrid_mid_loss1_c1_005] OK -- latency_avg=16.73ms cpu=3.51% failures=0
+[hybrid_mid_loss1_c1_006] OK -- latency_avg=9.44ms cpu=3.89% failures=0
+[hybrid_mid_loss1_c1_007] OK -- latency_avg=17.08ms cpu=4.34% failures=0
+[hybrid_mid_loss1_c1_008] OK -- latency_avg=14.25ms cpu=4.43% failures=0
+[hybrid_mid_loss1_c1_009] OK -- latency_avg=13.76ms cpu=3.86% failures=0
+[hybrid_mid_loss1_c1_010] OK -- latency_avg=10.53ms cpu=4.0% failures=0
+[hybrid_mid_loss1_c1_011] OK -- latency_avg=13.33ms cpu=3.46% failures=0
+[hybrid_mid_loss1_c1_012] OK -- latency_avg=10.76ms cpu=4.0% failures=0
+[hybrid_mid_loss1_c1_013] OK -- latency_avg=13.03ms cpu=4.29% failures=0
+[hybrid_mid_loss1_c1_014] OK -- latency_avg=15.65ms cpu=3.74% failures=0
+[hybrid_mid_loss1_c1_015] OK -- latency_avg=9.07ms cpu=3.2% failures=0
+[hybrid_mid_loss1_c1_016] OK -- latency_avg=15.09ms cpu=3.43% failures=0
+[hybrid_mid_loss1_c1_017] OK -- latency_avg=13.51ms cpu=2.97% failures=0
+[hybrid_mid_loss1_c1_018] OK -- latency_avg=17.43ms cpu=5.2% failures=0
+[hybrid_mid_loss1_c1_019] OK -- latency_avg=12.75ms cpu=3.4% failures=0
+[hybrid_mid_loss1_c1_020] OK -- latency_avg=12.76ms cpu=3.23% failures=0
+[hybrid_mid_loss1_c1_021] OK -- latency_avg=11.19ms cpu=4.11% failures=0
+[hybrid_mid_loss1_c1_022] OK -- latency_avg=13.78ms cpu=4.57% failures=0
+[hybrid_mid_loss1_c1_023] OK -- latency_avg=13.82ms cpu=3.97% failures=0
+[hybrid_mid_loss1_c1_024] OK -- latency_avg=9.01ms cpu=2.91% failures=0
+[hybrid_mid_loss1_c1_025] OK -- latency_avg=12.49ms cpu=4.0% failures=0
+[hybrid_mid_loss1_c1_026] OK -- latency_avg=15.35ms cpu=4.06% failures=0
+[hybrid_mid_loss1_c1_027] OK -- latency_avg=16.28ms cpu=3.4% failures=0
+[hybrid_mid_loss1_c1_028] OK -- latency_avg=12.25ms cpu=2.86% failures=0
+[hybrid_mid_loss1_c1_029] OK -- latency_avg=14.87ms cpu=4.06% failures=0
+
+[78/96] suite=hybrid tier=mid network=loss1 concurrency=10 -> end_to_end
+[hybrid_mid_loss1_c10_000] OK -- latency_avg=11.31ms cpu=28.17% failures=0
+[hybrid_mid_loss1_c10_001] OK -- latency_avg=12.42ms cpu=28.51% failures=0
+[hybrid_mid_loss1_c10_002] OK -- latency_avg=10.46ms cpu=30.46% failures=0
+[hybrid_mid_loss1_c10_003] OK -- latency_avg=11.19ms cpu=29.51% failures=0
+[hybrid_mid_loss1_c10_004] OK -- latency_avg=12.41ms cpu=28.2% failures=0
+[hybrid_mid_loss1_c10_005] OK -- latency_avg=10.98ms cpu=30.94% failures=0
+[hybrid_mid_loss1_c10_006] OK -- latency_avg=11.04ms cpu=28.83% failures=0
+[hybrid_mid_loss1_c10_007] OK -- latency_avg=12.3ms cpu=28.54% failures=0
+[hybrid_mid_loss1_c10_008] OK -- latency_avg=11.32ms cpu=31.77% failures=0
+[hybrid_mid_loss1_c10_009] OK -- latency_avg=11.27ms cpu=27.31% failures=0
+[hybrid_mid_loss1_c10_010] OK -- latency_avg=10.76ms cpu=29.66% failures=0
+[hybrid_mid_loss1_c10_011] OK -- latency_avg=11.45ms cpu=31.34% failures=0
+[hybrid_mid_loss1_c10_012] OK -- latency_avg=12.74ms cpu=33.14% failures=0
+[hybrid_mid_loss1_c10_013] OK -- latency_avg=12.02ms cpu=29.97% failures=0
+[hybrid_mid_loss1_c10_014] OK -- latency_avg=10.35ms cpu=26.89% failures=0
+[hybrid_mid_loss1_c10_015] OK -- latency_avg=11.34ms cpu=32.0% failures=0
+[hybrid_mid_loss1_c10_016] OK -- latency_avg=12.79ms cpu=31.71% failures=0
+[hybrid_mid_loss1_c10_017] OK -- latency_avg=10.99ms cpu=27.31% failures=0
+[hybrid_mid_loss1_c10_018] OK -- latency_avg=11.61ms cpu=29.23% failures=0
+[hybrid_mid_loss1_c10_019] OK -- latency_avg=11.03ms cpu=28.66% failures=0
+[hybrid_mid_loss1_c10_020] OK -- latency_avg=12.01ms cpu=30.4% failures=0
+[hybrid_mid_loss1_c10_021] OK -- latency_avg=10.24ms cpu=29.4% failures=0
+[hybrid_mid_loss1_c10_022] OK -- latency_avg=11.07ms cpu=28.89% failures=0
+[hybrid_mid_loss1_c10_023] OK -- latency_avg=11.73ms cpu=31.43% failures=0
+[hybrid_mid_loss1_c10_024] OK -- latency_avg=10.52ms cpu=30.31% failures=0
+[hybrid_mid_loss1_c10_025] OK -- latency_avg=12.45ms cpu=32.89% failures=0
+[hybrid_mid_loss1_c10_026] OK -- latency_avg=11.45ms cpu=29.6% failures=0
+[hybrid_mid_loss1_c10_027] OK -- latency_avg=12.12ms cpu=27.4% failures=0
+[hybrid_mid_loss1_c10_028] OK -- latency_avg=10.5ms cpu=26.29% failures=0
+[hybrid_mid_loss1_c10_029] OK -- latency_avg=12.11ms cpu=32.31% failures=0
+
+[79/96] suite=hybrid tier=mid network=loss1 concurrency=50 -> end_to_end
+[hybrid_mid_loss1_c50_000] OK -- latency_avg=8.42ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c50_001] OK -- latency_avg=8.61ms cpu=85.8% failures=0
+[hybrid_mid_loss1_c50_002] OK -- latency_avg=9.26ms cpu=85.77% failures=0
+[hybrid_mid_loss1_c50_003] OK -- latency_avg=8.72ms cpu=85.83% failures=0
+[hybrid_mid_loss1_c50_004] OK -- latency_avg=9.19ms cpu=85.94% failures=0
+[hybrid_mid_loss1_c50_005] OK -- latency_avg=8.45ms cpu=85.77% failures=0
+[hybrid_mid_loss1_c50_006] OK -- latency_avg=8.81ms cpu=85.69% failures=0
+[hybrid_mid_loss1_c50_007] OK -- latency_avg=8.61ms cpu=85.6% failures=0
+[hybrid_mid_loss1_c50_008] OK -- latency_avg=9.04ms cpu=85.71% failures=0
+[hybrid_mid_loss1_c50_009] OK -- latency_avg=9.48ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c50_010] OK -- latency_avg=9.0ms cpu=85.74% failures=0
+[hybrid_mid_loss1_c50_011] OK -- latency_avg=8.82ms cpu=85.71% failures=0
+[hybrid_mid_loss1_c50_012] OK -- latency_avg=8.49ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c50_013] OK -- latency_avg=8.62ms cpu=85.97% failures=0
+[hybrid_mid_loss1_c50_014] OK -- latency_avg=9.32ms cpu=85.71% failures=0
+[hybrid_mid_loss1_c50_015] OK -- latency_avg=8.65ms cpu=85.71% failures=0
+[hybrid_mid_loss1_c50_016] OK -- latency_avg=8.75ms cpu=85.97% failures=0
+[hybrid_mid_loss1_c50_017] OK -- latency_avg=9.09ms cpu=85.71% failures=0
+[hybrid_mid_loss1_c50_018] OK -- latency_avg=8.72ms cpu=85.77% failures=0
+[hybrid_mid_loss1_c50_019] OK -- latency_avg=8.77ms cpu=85.66% failures=0
+[hybrid_mid_loss1_c50_020] OK -- latency_avg=8.74ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c50_021] OK -- latency_avg=9.08ms cpu=85.8% failures=0
+[hybrid_mid_loss1_c50_022] OK -- latency_avg=8.83ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c50_023] OK -- latency_avg=8.98ms cpu=85.71% failures=0Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+Netem cleared di ens18.
+
+[hybrid_mid_loss1_c50_024] OK -- latency_avg=9.49ms cpu=85.77% failures=0
+[hybrid_mid_loss1_c50_025] OK -- latency_avg=8.97ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c50_026] OK -- latency_avg=8.56ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c50_027] OK -- latency_avg=8.57ms cpu=85.83% failures=0
+[hybrid_mid_loss1_c50_028] OK -- latency_avg=8.61ms cpu=85.63% failures=0
+[hybrid_mid_loss1_c50_029] OK -- latency_avg=8.76ms cpu=85.71% failures=0
+
+[80/96] suite=hybrid tier=mid network=loss1 concurrency=100 -> end_to_end
+[hybrid_mid_loss1_c100_000] OK -- latency_avg=5.78ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_001] OK -- latency_avg=5.81ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_002] OK -- latency_avg=5.94ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_003] OK -- latency_avg=5.62ms cpu=85.94% failures=0
+[hybrid_mid_loss1_c100_004] OK -- latency_avg=5.95ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_005] OK -- latency_avg=5.52ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_006] OK -- latency_avg=5.89ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_007] OK -- latency_avg=5.67ms cpu=85.91% failures=0
+[hybrid_mid_loss1_c100_008] OK -- latency_avg=5.57ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_009] OK -- latency_avg=5.58ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_010] OK -- latency_avg=5.82ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_011] OK -- latency_avg=5.92ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_012] OK -- latency_avg=5.72ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_013] OK -- latency_avg=5.74ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_014] OK -- latency_avg=6.09ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_015] OK -- latency_avg=5.59ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_016] OK -- latency_avg=5.56ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_017] OK -- latency_avg=5.4ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_018] OK -- latency_avg=5.68ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_019] OK -- latency_avg=5.74ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_020] OK -- latency_avg=6.03ms cpu=85.94% failures=0
+[hybrid_mid_loss1_c100_021] OK -- latency_avg=5.98ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_022] OK -- latency_avg=5.75ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_023] OK -- latency_avg=5.84ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_024] OK -- latency_avg=6.02ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_025] OK -- latency_avg=5.4ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_026] OK -- latency_avg=5.83ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_027] OK -- latency_avg=5.9ms cpu=85.86% failures=0
+[hybrid_mid_loss1_c100_028] OK -- latency_avg=5.91ms cpu=85.89% failures=0
+[hybrid_mid_loss1_c100_029] OK -- latency_avg=5.78ms cpu=85.89% failures=0
+
+[81/96] suite=hybrid tier=high network=baseline concurrency=1 -> pure_handshake
+[GAGAL] batch 81 (hybrid/high/baseline/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[82/96] suite=hybrid tier=high network=baseline concurrency=10 -> end_to_end
+[GAGAL] batch 82 (hybrid/high/baseline/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[83/96] suite=hybrid tier=high network=baseline concurrency=50 -> end_to_end
+[GAGAL] batch 83 (hybrid/high/baseline/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[84/96] suite=hybrid tier=high network=baseline concurrency=100 -> end_to_end
+[GAGAL] batch 84 (hybrid/high/baseline/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[85/96] suite=hybrid tier=high network=delay50 concurrency=1 -> end_to_end
+[GAGAL] batch 85 (hybrid/high/delay50/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[86/96] suite=hybrid tier=high network=delay50 concurrency=10 -> end_to_end
+[GAGAL] batch 86 (hybrid/high/delay50/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[87/96] suite=hybrid tier=high network=delay50 concurrency=50 -> end_to_end
+[GAGAL] batch 87 (hybrid/high/delay50/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[88/96] suite=hybrid tier=high network=delay50 concurrency=100 -> end_to_end
+[GAGAL] batch 88 (hybrid/high/delay50/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[89/96] suite=hybrid tier=high network=delay100 concurrency=1 -> end_to_end
+[GAGAL] batch 89 (hybrid/high/delay100/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[90/96] suite=hybrid tier=high network=delay100 concurrency=10 -> end_to_end
+[GAGAL] batch 90 (hybrid/high/delay100/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[91/96] suite=hybrid tier=high network=delay100 concurrency=50 -> end_to_end
+[GAGAL] batch 91 (hybrid/high/delay100/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[92/96] suite=hybrid tier=high network=delay100 concurrency=100 -> end_to_end
+[GAGAL] batch 92 (hybrid/high/delay100/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[93/96] suite=hybrid tier=high network=loss1 concurrency=1 -> end_to_end
+[GAGAL] batch 93 (hybrid/high/loss1/c1): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[94/96] suite=hybrid tier=high network=loss1 concurrency=10 -> end_to_end
+[GAGAL] batch 94 (hybrid/high/loss1/c10): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[95/96] suite=hybrid tier=high network=loss1 concurrency=50 -> end_to_end
+[GAGAL] batch 95 (hybrid/high/loss1/c50): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+[96/96] suite=hybrid tier=high network=loss1 concurrency=100 -> end_to_end
+[GAGAL] batch 96 (hybrid/high/loss1/c100): verifikasi grup GAGAL (dapat: TIDAK ADA BARIS NEGOTIATED GROUP ATAU PEER TEMP KEY, harap: X25519MLKEM768) -- batch dilewati, TIDAK dijalankan.
+
+Selesai. 32/96 batch dijalankan, 64 dilewati (lihat /home/benchmark/pqc-tls-feasibility/data/logs/batch_failures.log).
+Lanjut ke scripts/analysis/aggregate.py
