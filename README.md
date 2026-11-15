@@ -97,11 +97,20 @@ were not modified. See `docs/REDACTIONS.md`.
 
 ## Licensing and citation
 
-The source project contains an MIT license for its software. Before publishing
-the dataset, the authors should explicitly select and document a data license.
+This package uses separate licenses for software and research data:
+
+| Material | Scope | License |
+| --- | --- | --- |
+| Software and configurations | `scripts/`, `configs/` | MIT (`LICENSE`) |
+| Research data and derived outputs | `data/`, `hardware/`, `generated/`, and `docs/` | CC BY 4.0 (`LICENSE-DATA.md`) |
+
+The associated article is not distributed under these repository licenses.
+All rights holders should confirm the licensing choice before public release.
 
 `CITATION.cff` contains the release title and paper-author metadata. The DOI and
 repository URL are intentionally omitted until the first GitHub release has
 been archived by Zenodo. After Zenodo assigns a DOI, add the version DOI and the
 final repository URL to the citation file and add the DOI badge to this README.
+Users should cite the version-specific Zenodo DOI rather than only the GitHub
+URL. The recommended attribution text is provided in `LICENSE-DATA.md`.
 
