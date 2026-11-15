@@ -2,8 +2,8 @@
 
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-Copyright (c) 2026 Purnawansyah, Ramdan Satra, Ichwal, Dedy Atmajaya,
-Herdianti Darwis, and Fahmi
+Copyright (c) 2026 Purnawansyah, Ichwal, Herdianti Darwis, Ramdan Satra,
+Dedy Atmajaya, and Fahmi
 
 Unless an individual file states otherwise, the experimental datasets,
 measurement logs, hardware records, derived data products, and measurement
@@ -26,7 +26,7 @@ https://creativecommons.org/licenses/by/4.0/legalcode.en
 
 Recommended attribution:
 
-> Purnawansyah, Ramdan Satra, Ichwal, Dedy Atmajaya, Herdianti Darwis,
+> Purnawansyah, Ichwal, Herdianti Darwis, Ramdan Satra, Dedy Atmajaya,
 > and Fahmi, "Classical versus Hybrid Post-Quantum TLS 1.3:
 > Reproducibility Package," version 1.0.0, 2026. Cite the
 > version-specific Zenodo DOI recorded in `CITATION.cff` once the archived
